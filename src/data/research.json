@@ -1,0 +1,58 @@
+[
+  {
+    "id": "machine-learning-optimization",
+    "title": "Machine Learning Model Optimization for Edge Computing",
+    "description": "Research on optimizing ML models for deployment on edge devices with limited computational resources.",
+    "abstract": "This paper presents novel techniques for optimizing machine learning models specifically for edge computing environments. We propose a hybrid approach combining model quantization, pruning, and knowledge distillation to achieve significant reductions in model size and computational requirements while maintaining accuracy.",
+    "authors": ["Your Name", "Dr. Jane Smith", "Prof. John Doe"],
+    "journal": "IEEE Transactions on Mobile Computing",
+    "year": 2024,
+    "pdfUrl": "/papers/ml-optimization-edge-computing.pdf",
+    "keywords": ["Machine Learning", "Edge Computing", "Model Optimization", "Quantization", "Pruning"],
+    "category": "Machine Learning",
+    "citations": 15,
+    "slug": "ml-optimization-edge"
+  },
+  {
+    "id": "blockchain-scalability",
+    "title": "Enhancing Blockchain Scalability through Sharding and Layer-2 Solutions",
+    "description": "Comprehensive analysis of blockchain scalability challenges and proposed solutions using sharding mechanisms and layer-2 protocols.",
+    "abstract": "This research addresses the critical scalability limitations of current blockchain networks by proposing a novel hybrid architecture that combines database sharding with optimistic rollups. Our experimental results demonstrate a 1000x improvement in transaction throughput while maintaining security guarantees.",
+    "authors": ["Your Name", "Dr. Alice Johnson", "Prof. Bob Wilson"],
+    "journal": "ACM Transactions on Computer Systems",
+    "year": 2024,
+    "pdfUrl": "/papers/blockchain-scalability-solutions.pdf",
+    "keywords": ["Blockchain", "Scalability", "Sharding", "Layer-2", "Distributed Systems"],
+    "category": "Distributed Systems",
+    "citations": 28,
+    "slug": "blockchain-scalability"
+  },
+  {
+    "id": "quantum-algorithms",
+    "title": "Quantum Algorithms for Optimization Problems in Supply Chain Management",
+    "description": "Novel quantum computing approaches to solve complex optimization problems in modern supply chain networks.",
+    "abstract": "We present quantum algorithms specifically designed for solving NP-hard optimization problems commonly found in supply chain management. Our quantum annealing approach shows exponential speedup over classical methods for certain problem instances, with practical implications for logistics and inventory management.",
+    "authors": ["Your Name", "Dr. Carol Brown", "Prof. David Lee"],
+    "journal": "Nature Quantum Information",
+    "year": 2023,
+    "pdfUrl": "/papers/quantum-supply-chain-optimization.pdf",
+    "keywords": ["Quantum Computing", "Optimization", "Supply Chain", "Quantum Annealing", "Logistics"],
+    "category": "Quantum Computing",
+    "citations": 42,
+    "slug": "quantum-algorithms"
+  },
+  {
+    "id": "cybersecurity-ai",
+    "title": "AI-Driven Threat Detection in IoT Networks: A Federated Learning Approach",
+    "description": "Research on using federated learning for cybersecurity threat detection in Internet of Things networks.",
+    "abstract": "This paper introduces a federated learning framework for detecting cybersecurity threats in IoT networks without compromising device privacy. Our approach enables collaborative learning across distributed IoT devices while keeping sensitive data localized, achieving 95% accuracy in threat detection.",
+    "authors": ["Your Name", "Dr. Emily Chen", "Prof. Michael Zhang"],
+    "journal": "IEEE Internet of Things Journal",
+    "year": 2023,
+    "pdfUrl": "/papers/ai-threat-detection-iot.pdf",
+    "keywords": ["Cybersecurity", "IoT", "Federated Learning", "Threat Detection", "Privacy"],
+    "category": "Cybersecurity",
+    "citations": 31,
+    "slug": "cybersecurity-ai"
+  }
+]

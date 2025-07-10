@@ -1,36 +1,171 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+A modern, responsive portfolio website built with Next.js 15, TypeScript, and Tailwind CSS.
+
+## Features
+
+- ✨ **Dynamic Home Page** - Profile, banner, intro with animations
+- 📄 **About Me** - Personal info, skills, timeline, and stats
+- 🚀 **Projects Page** - Filterable project showcase with individual project pages
+- 📚 **Research Papers** - PDF viewer with categorization and search
+- 📧 **Contact Form** - Functional contact form with validation
+- 📱 **Mobile Responsive** - Optimized for all devices
+- 🌙 **Dark Mode** - Toggle between light and dark themes
+- ⚡ **Performance Optimized** - Built with Next.js 15 for optimal performance
+- 🔍 **SEO Optimized** - Meta tags, structured data, and more
+
+## Tech Stack
+
+- **Frontend**: Next.js 15, React 18, TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Vercel (recommended)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.0 or later
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
 
-## Learn More
+1. **Update personal details** in the following files:
+   - `/src/app/layout.tsx` - Meta tags and site title
+   - `/src/app/page.tsx` - Hero section content
+   - `/src/app/about/page.tsx` - About page content
+   - `/src/components/Footer.tsx` - Footer information
 
-To learn more about Next.js, take a look at the following resources:
+2. **Replace placeholder images**:
+   - Add your profile photo to `/public/images/`
+   - Update image paths in the components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Edit project data** in `/src/data/projects.json`
+2. **Add project images** to `/public/images/`
+3. **Update project URLs** to point to your actual projects
 
-## Deploy on Vercel
+### Research Papers
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Edit research data** in `/src/data/research.json`
+2. **Add PDF files** to `/public/papers/`
+3. **Update PDF URLs** in the JSON file
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Contact Form
+
+The contact form includes a basic API route at `/src/app/api/contact/route.ts`. For production use, you'll want to integrate with a service like:
+
+- **Formspree** - Easy form handling
+- **Resend** - Email API service
+- **SendGrid** - Email delivery platform
+- **Nodemailer** - SMTP email sending
+
+### Styling
+
+The project uses Tailwind CSS for styling. You can customize:
+
+- **Colors**: Update the color palette in `tailwind.config.ts`
+- **Fonts**: Change fonts in `/src/app/layout.tsx`
+- **Components**: Modify component styles in individual files
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Visit [Vercel](https://vercel.com)
+3. Import your repository
+4. Deploy with one click
+
+### Other Platforms
+
+The site can be deployed to any platform that supports Next.js:
+
+- **Netlify**
+- **Railway**
+- **DigitalOcean App Platform**
+- **AWS Amplify**
+
+## Environment Variables
+
+For the contact form to work in production, you may need to set up environment variables:
+
+```bash
+# .env.local
+RESEND_API_KEY=your_resend_api_key
+FORMSPREE_FORM_ID=your_formspree_form_id
+```
+
+## File Structure
+
+```
+portfolio/
+├── public/
+│   ├── images/          # Profile and project images
+│   ├── papers/          # Research paper PDFs
+│   └── resume.pdf       # Your resume
+├── src/
+│   ├── app/
+│   │   ├── about/       # About page
+│   │   ├── contact/     # Contact page
+│   │   ├── projects/    # Projects pages
+│   │   ├── research/    # Research page
+│   │   └── api/         # API routes
+│   ├── components/      # React components
+│   ├── data/           # JSON data files
+│   └── ...
+├── tailwind.config.ts   # Tailwind configuration
+├── next.config.ts       # Next.js configuration
+└── package.json
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Support
+
+If you have questions or need help customizing the portfolio, feel free to open an issue or reach out!
+
+---
+
+**Made with ❤️ and Next.js**

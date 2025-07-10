@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ai-chatbot",
+    "title": "AI-Powered Chatbot",
+    "description": "A sophisticated chatbot built with Next.js and OpenAI API, featuring natural language processing and context-aware responses.",
+    "longDescription": "This project demonstrates the integration of modern web technologies with artificial intelligence. The chatbot uses OpenAI's GPT API to provide intelligent, context-aware responses to user queries. Built with Next.js 15, it features a responsive design, real-time messaging, and conversation history management.",
+    "image": "/images/chatbot-preview.jpg",
+    "technologies": ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    "features": [
+      "Real-time conversation interface",
+      "Context-aware AI responses",
+      "Conversation history storage",
+      "Multiple conversation threads",
+      "Responsive mobile design",
+      "Dark/light theme support"
+    ],
+    "githubUrl": "https://github.com/yourusername/ai-chatbot",
+    "liveUrl": "https://ai-chatbot-demo.vercel.app",
+    "slug": "ai-chatbot",
+    "category": "AI/ML",
+    "status": "completed"
+  },
+  {
+    "id": "task-manager",
+    "title": "Advanced Task Manager",
+    "description": "A full-stack task management application with real-time collaboration, drag-and-drop functionality, and team workspaces.",
+    "longDescription": "A comprehensive project management solution that combines modern web technologies to create an intuitive and powerful task management experience. Features include real-time collaboration, customizable workflows, and advanced analytics.",
+    "image": "/images/task-manager-preview.jpg",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Redux Toolkit"],
+    "features": [
+      "Drag-and-drop task organization",
+      "Real-time team collaboration",
+      "Custom project templates",
+      "Time tracking and analytics",
+      "File attachments and comments",
+      "Mobile-responsive interface"
+    ],
+    "githubUrl": "https://github.com/yourusername/task-manager",
+    "liveUrl": "https://task-manager-pro.vercel.app",
+    "slug": "task-manager",
+    "category": "Web Application",
+    "status": "completed"
+  },
+  {
+    "id": "ecommerce-platform",
+    "title": "E-commerce Platform",
+    "description": "A modern e-commerce solution with payment integration, inventory management, and admin dashboard.",
+    "longDescription": "A full-featured e-commerce platform built with modern web technologies. Includes user authentication, payment processing, inventory management, and a comprehensive admin dashboard for managing products, orders, and customers.",
+    "image": "/images/ecommerce-preview.jpg",
+    "technologies": ["Next.js", "TypeScript", "Stripe", "Supabase", "Tailwind CSS", "Zustand"],
+    "features": [
+      "Secure payment processing",
+      "Inventory management system",
+      "User authentication and profiles",
+      "Admin dashboard with analytics",
+      "Product search and filtering",
+      "Order tracking and management"
+    ],
+    "githubUrl": "https://github.com/yourusername/ecommerce-platform",
+    "liveUrl": "https://ecommerce-demo.vercel.app",
+    "slug": "ecommerce-platform",
+    "category": "E-commerce",
+    "status": "completed"
+  },
+  {
+    "id": "data-visualization",
+    "title": "Data Visualization Dashboard",
+    "description": "Interactive dashboard for data analysis with real-time charts, filtering capabilities, and export functionality.",
+    "longDescription": "A comprehensive data visualization tool that transforms complex datasets into interactive, meaningful charts and graphs. Features real-time data updates, advanced filtering options, and multiple export formats for business intelligence needs.",
+    "image": "/images/dashboard-preview.jpg",
+    "technologies": ["React", "D3.js", "Chart.js", "Python", "FastAPI", "PostgreSQL"],
+    "features": [
+      "Interactive charts and graphs",
+      "Real-time data updates",
+      "Advanced filtering and search",
+      "Multiple export formats",
+      "Responsive design",
+      "Custom chart configurations"
+    ],
+    "githubUrl": "https://github.com/yourusername/data-dashboard",
+    "liveUrl": "https://data-viz-demo.vercel.app",
+    "slug": "data-visualization",
+    "category": "Data Science",
+    "status": "in-progress"
+  }
+]
