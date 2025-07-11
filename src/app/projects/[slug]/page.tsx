@@ -42,7 +42,7 @@ export default async function ProjectPage({ params }: PageProps) {
               className="object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = `https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&auto=format`;
+                target.src="/images/chandanProfile.jpg";
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />

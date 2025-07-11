@@ -93,7 +93,7 @@ export default function About() {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-20 blur-3xl animate-pulse" />
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format"
+                  src="/images/chandanProfile.jpg"
                   alt="Profile"
                   fill
                   className="object-cover rounded-full border-4 lg:border-8 border-white dark:border-gray-800 shadow-2xl relative z-10"
