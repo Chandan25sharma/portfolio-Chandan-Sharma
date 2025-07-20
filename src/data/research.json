@@ -49,7 +49,7 @@
     "authors": ["Your Name", "Dr. Emily Chen", "Prof. Michael Zhang"],
     "journal": "IEEE Internet of Things Journal",
     "year": 2023,
-    "pdfUrl": "/papers/ai-threat-detection-iot.pdf",
+    "pdfUrl": "/papers/SM-AHIN v1.pdf",
     "keywords": ["Cybersecurity", "IoT", "Federated Learning", "Threat Detection", "Privacy"],
     "category": "Cybersecurity",
     "citations": 31,
