@@ -1,9 +1,14 @@
 'use client';
 
-import Image from 'next/image';
+import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
-export default function ClientImage({ src, alt, ...props }: any) {
+interface ClientImageProps extends Omit<ImageProps, 'src' | 'alt'> {
+  src: string;
+  alt: string;
+}
+
+export default function ClientImage({ src, alt, ...props }: ClientImageProps) {
   const [error, setError] = useState(false);
 
   return (
