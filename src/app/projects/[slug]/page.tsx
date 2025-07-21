@@ -77,7 +77,7 @@ export default async function ProjectPage({ params }: PageProps) {
               </div>
               <div className="flex items-center space-x-2 bg-gray-100 dark:bg-gray-800 px-3 py-1.5 rounded-full">
                 <Calendar className="h-4 w-4" />
-                <span>{project.year || '2024'}</span>
+                <span>2024</span>
               </div>
               <span className={`inline-flex items-center px-3 py-1.5 rounded-full text-xs font-medium ${
                 project.status === 'completed' 

@@ -48,7 +48,7 @@ export default function Research() {
                 Citations
               </div>
             </div>
-            <div className="text-center card-spacing bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-800 hover-lift">
+            <div className="text-center card-spacing bg-white dark:bg-gray-900 rounded-[4px] shadow-lg border border-gray-200 dark:border-gray-800 hover-lift">
               <div className="text-8xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 {new Set(researchData.flatMap(paper => paper.keywords)).size}
               </div>
@@ -79,7 +79,7 @@ export default function Research() {
           transition={{ delay: 0.2 }}
           className="mb-16 lg:mb-20"
         >
-          <h2 className="text-3xl font-semibold text-gray-900 dark:text-white text-center mb-8">
+          <h2 className="text-4xl font-semibold text-gray-900 dark:text-white text-center mb-8">
             Research Areas
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
@@ -87,9 +87,9 @@ export default function Research() {
               <motion.span
                 key={keyword}
                 initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
+                animate={{ opacity: 0.5, scale: 1.04 }}
                 transition={{ delay: 0.2 + (index * 0.02) }}
-                className="px-4 py-2 bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 rounded-full font-medium hover-scale"
+                className="px-4 py-2 bg-blue-50 text-blue-950 dark:bg-blue-900/10 dark:text-blue-300 rounded-f[2px] font-medium hover-scale"
               >
                 {keyword}
               </motion.span>

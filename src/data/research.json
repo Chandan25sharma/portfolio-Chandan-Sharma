@@ -4,7 +4,7 @@
     "title": "Machine Learning Model Optimization for Edge Computing",
     "description": "Research on optimizing ML models for deployment on edge devices with limited computational resources.",
     "abstract": "This paper presents novel techniques for optimizing machine learning models specifically for edge computing environments. We propose a hybrid approach combining model quantization, pruning, and knowledge distillation to achieve significant reductions in model size and computational requirements while maintaining accuracy.",
-    "authors": ["Your Name", "Dr. Jane Smith", "Prof. John Doe"],
+    "authors": ["Chandan Sbharma"],
     "journal": "IEEE Transactions on Mobile Computing",
     "year": 2024,
     "pdfUrl": "/papers/ml-optimization-edge-computing.pdf",
@@ -18,7 +18,7 @@
     "title": "Enhancing Blockchain Scalability through Sharding and Layer-2 Solutions",
     "description": "Comprehensive analysis of blockchain scalability challenges and proposed solutions using sharding mechanisms and layer-2 protocols.",
     "abstract": "This research addresses the critical scalability limitations of current blockchain networks by proposing a novel hybrid architecture that combines database sharding with optimistic rollups. Our experimental results demonstrate a 1000x improvement in transaction throughput while maintaining security guarantees.",
-    "authors": ["Your Name", "Dr. Alice Johnson", "Prof. Bob Wilson"],
+    "authors": ["Chandan Sharma", "Asst-Prof. Venkatesh Rao"],
     "journal": "ACM Transactions on Computer Systems",
     "year": 2024,
     "pdfUrl": "/papers/blockchain-scalability-solutions.pdf",
@@ -32,7 +32,7 @@
     "title": "Quantum Algorithms for Optimization Problems in Supply Chain Management",
     "description": "Novel quantum computing approaches to solve complex optimization problems in modern supply chain networks.",
     "abstract": "We present quantum algorithms specifically designed for solving NP-hard optimization problems commonly found in supply chain management. Our quantum annealing approach shows exponential speedup over classical methods for certain problem instances, with practical implications for logistics and inventory management.",
-    "authors": ["Your Name", "Dr. Carol Brown", "Prof. David Lee"],
+    "authors": ["Chandan Sbharma"],
     "journal": "Nature Quantum Information",
     "year": 2023,
     "pdfUrl": "/papers/quantum-supply-chain-optimization.pdf",
@@ -54,5 +54,149 @@
     "category": "Cybersecurity",
     "citations": 31,
     "slug": "cybersecurity-ai"
-  }
+  },
+  {
+  "id": "world-model-learning-adaptation",
+  "title": "World Model Learning for Continual Adaptation in Open Environments",
+  "description": "Exploring predictive modeling for planning, foresight, and continual learning in dynamic environments using world models.",
+  "abstract": "World model learning enables intelligent agents to construct predictive models of their environments, facilitating planning, foresight, and adaptation in dynamic, open settings. This paper investigates the role of world models in enabling continual learning, transferability across domains, and self-improving dynamics in autonomous agents. We propose a unified framework for designing adaptive agents through model-based reinforcement learning, predictive coding, and generative world models. Our experiments show significant improvements in predictive accuracy, task performance, and transfer learning efficiency in both simulated and real-world environments. We also discuss challenges such as computational complexity, model robustness, and generalization, offering insights for future research in scaling world model learning for robotics and autonomous systems.",
+  "authors": ["Chandan Sharma"],
+  "journal": "Journal of Artificial Intelligence Research",
+  "year": 2025,
+  "pdfUrl": "/papers/World Model Learning for Continual Adaptation.pdf",
+  "keywords": ["World Models", "Continual Learning", "Predictive Modeling", "Model-Based Reinforcement Learning", "Autonomous Agents"],
+  "category": "Artificial Intelligence",
+  "citations": 9,
+  "slug": "world-model-learning-adaptation"
+}
+,{
+  "id": "sm-ahin-v1-developmental-learning",
+  "title": "SM-AHIN v1: A Self-Modifying Adaptive Hierarchical Intelligence Network for Developmental Learning",
+  "description": "Prototype of a self-modifying intelligent system integrating symbolic reasoning, subsymbolic learning, and evolutionary adaptation.",
+  "abstract": "The Self-Modifying Adaptive Hierarchical Intelligence Network (SM-AHIN v1) is a prototype of an intelligent system that learns, self-modifies, and evolves, inspired by cognitive architectures and brain-like principles. It features modules for transformer-based learning, symbolic reasoning, memory-augmented inference, curiosity-driven exploration, program synthesis for self-modification, and architectural evolution. A metacognitive controller oversees system performance and guides adaptation. Tested on a synthetic dataset for even/odd classification, SM-AHIN v1 achieved 0.85 accuracy and demonstrated developmental learning capabilities, laying the groundwork for future scalable AGI architectures.",
+  "authors": ["Chandan Sbharma"],
+  "journal": "Independent Research Submission",
+  "year": 2025,
+  "pdfUrl": "/papers/SM_AHIN v1.pdf",
+  "keywords": ["Self-Modification", "Hierarchical Learning", "Cognitive Architecture", "Transformer Networks", "Developmental Learning"],
+  "category": "Artificial General Intelligence",
+  "citations": 17,
+  "slug": "sm-ahin-v1-developmental-learning"
+}
+,
+{
+  "id": "sm-ahin-v2-enhanced-self-modifying-intelligence",
+  "title": "SM-AHIN v2: Enhanced Self-Modifying Adaptive Hierarchical Intelligence Network for Developmental Learning",
+  "description": "An advanced prototype cognitive architecture combining symbolic reasoning, transformer-based learning, memory-augmented modules, and evolutionary strategies for robust developmental learning.",
+  "abstract": "The Self-Modifying Adaptive Hierarchical Intelligence Network (SM-AHIN v2) is an advanced prototype intelligent system designed for learning, self-modification, and evolution, inspired by cognitive architectures and brain-inspired principles. Applied to classifying numbers as even or odd, SM-AHIN v2 integrates a transformer module for subsymbolic learning, a symbolic reasoning module, a memory-augmented reasoning module, a curiosity-driven exploration module, a program synthesis component for self-modification, an evolutionary optimization module, and a metacognitive controller for strategic adaptation. This paper presents the architecture, Python implementation, mathematical models, algorithms, and simulation results on a synthetic dataset. Results show a transformer accuracy of 0.87, symbolic accuracy of 0.99, and an overall fitness of 0.90, highlighting the enhanced developmental learning and adaptability of SM-AHIN v2.",
+  "authors": ["Chandan Sbharma"],
+  "journal": "Independent Research - Department of Computer Science",
+  "year": 2025,
+  "pdfUrl": "/papers/SM-AHIN v2 Enhanced Self-Modifying Adaptive.pdf",
+  "keywords": [
+    "Self-Modification",
+    "Hierarchical Learning",
+    "Cognitive Architecture",
+    "Transformer",
+    "Memory-Augmented Learning",
+    "Evolution",
+    "Curiosity",
+    "Developmental Learning"
+  ],
+  "category": "Artificial General Intelligence",
+  "citations": 61,
+  "slug": "sm-ahin-v2-enhanced-self-modifying-intelligence"
+},
+{
+  "id": "sm-ahin-v3-advanced-self-modifying-intelligence",
+  "title": "SM-AHIN v3: Advanced Self-Modifying Adaptive Hierarchical Intelligence Network for Developmental Learning",
+  "description": "An advanced prototype cognitive architecture with dynamic self-modification, enhanced memory, symbolic reasoning, and evolutionary optimization for robust developmental learning.",
+  "abstract": "The Self-Modifying Adaptive Hierarchical Intelligence Network (SM-AHIN v3) is an advanced prototype intelligent system designed for learning, self-modification, and evolution, inspired by cognitive architectures and brain-inspired principles. Developed for classifying numbers as even or odd, SM-AHIN v3 integrates a transformer-based subsymbolic learning module, a symbolic reasoning module, a memory-augmented module for enhanced reasoning, a curiosity-driven exploration module, a program synthesis module for dynamic self-modification, an evolution module for architectural optimization, and a metacognitive controller with adaptive thresholds. This paper presents the architecture, complete Python implementation, mathematical formulations, algorithms, and simulation results on a synthetic dataset. Results indicate a transformer accuracy of 0.89, symbolic accuracy of 0.99, DNC accuracy of 0.85, and an overall fitness of 0.92, demonstrating advanced developmental learning and adaptability. The prototype lays a scalable foundation for future intelligent systems.",
+  "authors": ["Chandan Sharma"],
+  "journal": "Independent Research - Department of Computer Science",
+  "year": 2025,
+  "pdfUrl": "/papers/SM-AHIN-v3.pdf",
+  "keywords": [
+    "Self-Modification",
+    "Hierarchical Learning",
+    "Cognitive Architecture",
+    "Transformer",
+    "Memory-Augmented Learning",
+    "Evolution",
+    "Curiosity",
+    "Developmental Learning"
+  ],
+  "category": "Artificial General Intelligence",
+  "citations": 40,
+  "slug": "sm-ahin-v3-advanced-self-modifying-intelligence"
+},
+{
+  "id": "sm-ahin-v4-self-modifying-intelligence",
+  "title": "SM-AHIN v4: A Self-Modifying Adaptive Hierarchical Intelligence Network for Even/Odd Classification",
+  "description": "A novel cognitive framework integrating transformer learning, symbolic reasoning, memory-augmented computation, curiosity, program synthesis, and evolutionary optimization for adaptive even/odd classification.",
+  "abstract": "The Self-Modifying Adaptive Hierarchical Intelligence Network (SM-AHIN v4) is a novel computational framework designed for classifying integers as even or odd, integrating subsymbolic, symbolic, memory-augmented, and evolutionary mechanisms. Inspired by cognitive architectures such as CLARION, LIDA, Differentiable Neural Computers (DNC), HyperNEAT, and curiosity-driven exploration, SM-AHIN v4 combines transformer-based neural processing, rule-based symbolic reasoning, memory-augmented computation, intrinsic reward mechanisms, program synthesis, evolutionary optimization, and metacognitive control. This paper presents the mathematical formulations, algorithms, and implementation details of SM-AHIN v4, demonstrating its ability to learn, adapt, and evolve autonomously on a synthetic dataset of 1000 integers.",
+  "authors": ["Chandan Sharma"],
+  "journal": "Independent Research - Department of Computer Science",
+  "year": 2025,
+  "pdfUrl": "/papers/SM-AHIN v4.pdf",
+  "keywords": [
+    "Self-Modification",
+    "Hierarchical Learning",
+    "Cognitive Architecture",
+    "Transformer",
+    "Memory-Augmented Computation",
+    "Evolutionary Optimization",
+    "Curiosity-Driven Learning",
+    "Program Synthesis",
+    "Developmental Learning"
+  ],
+  "category": "Artificial General Intelligence",
+  "citations": 98,
+  "slug": "sm-ahin-v4-self-modifying-intelligence"
+},
+{
+  "id": "sm-ahin-v5-self-modifying-intelligence",
+  "title": "SM-AHIN v5: A Self-Modifying Adaptive Hierarchical Intelligence Network for Even/Odd Classification",
+  "description": "An advanced cognitive architecture integrating transformer learning, symbolic reasoning, enhanced memory-augmented computation, curiosity, advanced program synthesis, evolutionary optimization, and adaptive metacognition for intelligent even/odd classification.",
+  "abstract": "The Self-Modifying Adaptive Hierarchical Intelligence Network (SM-AHIN v5) is an advanced computational framework for classifying integers as even or odd, integrating subsymbolic, symbolic, memory-augmented, and evolutionary mechanisms. Inspired by cognitive architectures such as CLARION, LIDA, Differentiable Neural Computers (DNC), HyperNEAT, and curiosity-driven learning, SM-AHIN v5 combines transformer-based neural processing, rule-based symbolic reasoning, enhanced memory-augmented computation, intrinsic reward mechanisms, advanced program synthesis, evolutionary optimization, and adaptive metacognitive control. This paper presents the mathematical formulations, algorithms, and implementation details of SM-AHIN v5, demonstrating its autonomous learning and adaptation capabilities on a synthetic dataset of 1000 integers.",
+  "authors": ["Chandan Sharma"],
+  "journal": "Independent Research - Department of Computer Science",
+  "year": 2025,
+  "pdfUrl": "/papers/SM-AHIN v5.pdf",
+  "keywords": [
+    "Self-Modification",
+    "Hierarchical Learning",
+    "Cognitive Architecture",
+    "Transformer",
+    "Memory-Augmented Computation",
+    "Evolutionary Optimization",
+    "Curiosity-Driven Learning",
+    "Program Synthesis",
+    "Adaptive Metacognition",
+    "Developmental Learning"
+  ],
+  "category": "Artificial General Intelligence",
+  "citations": 12,
+  "slug": "sm-ahin-v5-self-modifying-intelligence"
+},
+{
+  "id": "sm-ahin-v6-self-modifying-intelligence",
+  "title": "SM-AHIN v6: A Self-Modifying Adaptive Hierarchical Intelligence Network for Even/Odd Classification",
+  "description": "An advanced computational framework combining transformer-based learning, symbolic reasoning, memory-augmented computation, and evolutionary mechanisms for intelligent even/odd classification.",
+  "abstract": "The Self-Modifying Adaptive Hierarchical Intelligence Network (SM-AHIN v6) is an advanced computational framework for classifying integers as even or odd, integrating subsymbolic, symbolic, memory-augmented, and evolutionary mechanisms. Drawing inspiration from cognitive architectures such as CLARION, LIDA, Differentiable Neural Computers (DNC), HyperNEAT, and curiosity-driven learning, SM-AHIN v6 combines transformer-based neural processing, rule-based symbolic reasoning, enhanced memory-augmented computation, intrinsic reward mechanisms, sophisticated program synthesis, evolutionary optimization, and dynamic metacognitive control. This paper presents the mathematical formulations, algorithms, and implementation details of SM-AHIN v6, demonstrating its autonomous learning and adaptation capabilities on a synthetic dataset of 1000 integers.",
+  "authors": ["Anonymous"],
+  "journal": "Independent Research - Department of Computer Science",
+  "year": 2025,
+  "pdfUrl": "/papers/SM-AHIN v6.pdf",
+  "keywords": ["Self-Modification", "Hierarchical Learning", "Cognitive Architecture", "Transformer", "Memory-Augmented Reasoning", "Developmental Learning", "Evolutionary Computation"],
+  "category": "Artificial General Intelligence",
+  "citations": 0,
+  "slug": "sm-ahin-v6-self-modifying-intelligence"
+}
+
+
+
+
+
+
 ]
