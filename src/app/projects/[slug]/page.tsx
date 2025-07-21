@@ -1,8 +1,10 @@
+
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
+
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Github, Calendar, Tag, CheckCircle } from 'lucide-react';
 import projectsData from '@/data/projects.json';
+import ClientImage from '@/components/ClientImage';
 
 interface PageProps {
   params: Promise<{
@@ -35,16 +37,12 @@ export default async function ProjectPage({ params }: PageProps) {
         {/* Project Header */}
         <div className="mb-12">
           <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-8">
-            <Image
-              src={project.image}
-              alt={project.title}
-              fill
-              className="object-cover"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src="/images/chandanProfile.jpg";
-              }}
-            />
+           <ClientImage
+  src={project.image}
+  alt={project.title}
+  fill
+  className="object-cover"
+/>
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
             
             {/* Project actions overlay */}
