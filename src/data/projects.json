@@ -77,98 +77,13 @@
       "Responsive design",
       "Custom chart configurations"
     ],
-    "githubUrl": "https://github.com/yourusername/data-dashboard",
-    "liveUrl": "https://data-viz-demo.vercel.app",
+    "githubUrl": "https://github.com/Chandan25sharma/sales-forecasting",
+    "liveUrl": "https://sales-forecasting-tau.vercel.app/",
     "slug": "data-visualization",
     "category": "Data Science",
-    "status": "compleated"
-  },
-  {
-  "id": "tour-travel-booking",
-  "title": "Tour & Travel Booking Platform",
-  "description": "A web platform where users can explore, plan, and book their tours and travel destinations with ease.",
-  "longDescription": "An interactive tour and travel management system that allows users to browse destinations, customize tour packages, and make bookings online. The platform supports itinerary planning, online payments, and customer reviews, providing a seamless travel experience.",
-  "image": "/images/tour-travel-preview.jpg",
-  "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "Stripe API", "Tailwind CSS"],
-  "features": [
-    "Destination exploration and package customization",
-    "Online booking and payment integration",
-    "User registration and profile management",
-    "Itinerary planning and booking history tracking",
-    "Customer reviews and ratings",
-    "Responsive and user-friendly design"
-  ],
-  "githubUrl": "https://github.com/Chandan25sharma/Tour-FIxer",
-  "liveUrl": "https://tour-f-ixer.vercel.app/",
-  "slug": "tour-travel-booking",
-  "category": "Web Application",
-  "status": "completed"
-},
-  {
-    "id": "Stock-Prediction-learning-model-design,",
-    "title": "Stock Prediction Model",  
-    "description": "A machine learning model designed to predict stock prices using historical data and advanced algorithms.",
-    "longDescription": "This project focuses on developing a robust machine learning model for stock price prediction. It utilizes historical stock data, technical indicators, and machine learning algorithms to forecast future stock movements. The model is designed to assist traders and investors in making informed decisions.",
-    "image": "/images/stock-prediction-preview.jpg",  
-    "technologies": ["Python", "Pandas", "Scikit-learn", "TensorFlow", "Keras"],
-    "features": [
-      "Data preprocessing and feature engineering",
-      "Model training and evaluation",
-      "Predictive analytics",
-      "Visualization of predictions",
-      "Backtesting with historical data"
-    ],  
-    "githubUrl": "https://github.com/Chandan25sharma/Stock-Prediction-learning-model-design",
-    "liveUrl": "https://stock-prediction-l-git-a154ee-chandan-sharmas-projects-615ca914.vercel.app/",
-    "slug": "stock-prediction-model",
-    "category": "Machine Learning",
-    "status": "completed"
-  },
-  {
-    "id":"SM-AHIN-v5",
-    "title": "SM-AHIN v5",
-    "description":"A research project based on the SM-AHIN framework, focusing on advanced AI , combination of multiple AI models and algorithms for enhanced performance.",
-    "longDescription": "This project aims to explore the capabilities of the SM-AHIN framework in integrating various AI models and algorithms. The goal is to enhance performance across different tasks by leveraging the strengths of each model. The research includes experimentation with model architectures, training techniques, and evaluation metrics.",
-    "image": "/images/sm-ahin-preview.jpg",
-    "technologies": ["Python", "TensorFlow", "Keras", "Scikit-learn"],
-    "features": [
-      "Integration of multiple AI models",
-      "Advanced training techniques",
-      "Comprehensive evaluation metrics",
-      "Performance optimization",
-      "Scalability and flexibility"
-    ],
-    "githubUrl": "https://github.com/Chandan25sharma/SM-AHIN-v5",
-    "liveUrl": "https://sm-ahin-v5-demo.vercel.app/",
-    "slug": "sm-ahin-v5",
-    "category": "Research",
     "status": "in-progress"
   },
   {
-  "id":""
-  },
-    {
-  "id": "neurosymbolic-ai-framework",
-  "title": "Neurosymbolic Programming Framework for Explainable AI Agents",
-  "description": "A hybrid AI framework combining neural networks with symbolic reasoning to enable transparent and explainable AI decisions.",
-  "longDescription": "This project integrates deep learning with symbolic logic programming to build AI agents that can perform pattern recognition and logical inference simultaneously. The framework allows AI models to generate reasoning chains alongside predictions, supporting explainable decision-making in sensitive domains like healthcare, law, and finance.",
-  "image": "/images/neurosymbolic-framework-preview.jpg",
-  "technologies": ["Python", "PyTorch", "Prolog Integration", "Neuro-Symbolic Reasoning", "Knowledge Graph APIs"],
-  "features": [
-    "Hybrid deep learning and symbolic logic execution",
-    "Transparent inference tracing with explainable outputs",
-    "Symbol grounding for real-world entities",
-    "Knowledge graph integration for reasoning support",
-    "Testable experiments with logical consistency checks",
-    "Modular design for plugging into AI agents"
-  ],
-  "githubUrl": "https://github.com/Chandan25sharma/Neurosymbolic-agent",
-  "liveUrl": "https://neurosymbolic-agent.vercel.app/",
-  "slug": "neurosymbolic-ai-framework",
-  "category": "AI Framework",
-  "status": "in-progress"
-},
-{
   "id": "ai-research-assistant",
   "title": "AI-Driven Autonomous Research Assistant",
   "description": "An AI system designed to autonomously analyze scientific literature, extract structured knowledge, build dynamic knowledge graphs, generate hypotheses, and suggest experimental designs.",
@@ -195,10 +110,52 @@
     "Experiment design suggestion",
     "Continuous reasoning and feedback loop"
   ],
-  "githubUrl": "https://github.com/Chandan25sharma/ai-research-assistant",
+  "githubUrl": "https://github.com/Chandan25sharma/AI-RESEARCH-Assistant",
   "liveUrl": "https://ai-research-assistant-psi.vercel.app/",
   "slug": "ai-research-assistant",
   "category": "AI Research Tool",
+  "status": "in-progress"
+},
+{
+  "id": "neurosymbolic-ai-framework",
+  "title": "Neurosymbolic Programming Framework for Explainable AI Agents",
+  "description": "A hybrid AI framework combining neural networks with symbolic reasoning to enable transparent and explainable AI decisions.",
+  "longDescription": "This project integrates deep learning with symbolic logic programming to build AI agents that can perform pattern recognition and logical inference simultaneously. The framework allows AI models to generate reasoning chains alongside predictions, supporting explainable decision-making in sensitive domains like healthcare, law, and finance.",
+  "image": "/images/neurosymbolic-framework-preview.jpg",
+  "technologies": ["Python", "PyTorch", "Prolog Integration", "Neuro-Symbolic Reasoning", "Knowledge Graph APIs"],
+  "features": [
+    "Hybrid deep learning and symbolic logic execution",
+    "Transparent inference tracing with explainable outputs",
+    "Symbol grounding for real-world entities",
+    "Knowledge graph integration for reasoning support",
+    "Testable experiments with logical consistency checks",
+    "Modular design for plugging into AI agents"
+  ],
+  "githubUrl": "https://github.com/Chandan25sharma/Neurosymbolic-agent",
+  "liveUrl": "https://neurosymbolic-agent.vercel.app/",
+  "slug": "neurosymbolic-ai-framework",
+  "category": "AI Framework",
+  "status": "in-progress"
+},
+{
+  "id": "tour-travel-booking",
+  "title": "Tour & Travel Booking Platform",
+  "description": "A web platform where users can explore, plan, and book their tours and travel destinations with ease.",
+  "longDescription": "An interactive tour and travel management system that allows users to browse destinations, customize tour packages, and make bookings online. The platform supports itinerary planning, online payments, and customer reviews, providing a seamless travel experience.",
+  "image": "/images/tour-travel-preview.jpg",
+  "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "Stripe API", "Tailwind CSS"],
+  "features": [
+    "Destination exploration and package customization",
+    "Online booking and payment integration",
+    "User registration and profile management",
+    "Itinerary planning and booking history tracking",
+    "Customer reviews and ratings",
+    "Responsive and user-friendly design"
+  ],
+  "githubUrl": "https://github.com/Chandan25sharma/Tour-FIxer",
+  "liveUrl": "https://tour-f-ixer.vercel.app/",
+  "slug": "tour-travel-booking",
+  "category": "Web Application",
   "status": "in-progress"
 }
 

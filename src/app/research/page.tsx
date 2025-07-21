@@ -127,8 +127,7 @@ export default function Research() {
           className="section-spacing"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-            whileDrag={{ scale: 1.05 }}
+          transition={{ delay: 0.4 }}
         >
           <PaperViewer papers={researchData} />
         </motion.div>
