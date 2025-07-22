@@ -19,8 +19,8 @@ export default async function ProjectPage({ params }: PageProps) {
   }
 
   return (
-    <div className="min-h-screen py-12 md:py-20section-spacing bg-gradient-to-br from-blue-50 via-white to-purple-100 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+    <div className="section-spacing bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="container-responsive1 mx-auto px-6 sm:px-8 lg:px-12">
         {/* Back Button */}
         <div className="mb-8">
           <Link
@@ -101,11 +101,11 @@ export default async function ProjectPage({ params }: PageProps) {
         </div>
 
         {/* Project Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 container-responsive1">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
             {/* About the Project */}
-            <section className="bg-white dark:bg-gray-900 rounded-2xl p-6 md:p-8 shadow-sm border border-gray-200 dark:border-gray-800">
+            <section className="section-spacing bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl">
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 pb-2 border-b border-gray-200 dark:border-gray-800">
                 About the Project
               </h2>
@@ -118,7 +118,7 @@ export default async function ProjectPage({ params }: PageProps) {
 
             {/* Key Features */}
             {'features' in project && (
-              <section className="bg-white dark:bg-gray-900 rounded-2xl p-6 md:p-8 shadow-sm border border-gray-200 dark:border-gray-800">
+              <section className="section-spacing bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat">
                 <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 pb-2 border-b border-gray-200 dark:border-gray-800">
                   Key Features
                 </h2>
@@ -137,8 +137,8 @@ export default async function ProjectPage({ params }: PageProps) {
             )}
 
             {/* Call to Action */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-500 dark:from-blue-800 dark:to-blue-700 rounded-2xl p-6 md:p-8 text-white shadow-lg">
-              <div className="max-w-2xl mx-auto text-center">
+            <section className="g-gradient-custom justify-center">
+              <div className="max-w-8xl mx-auto text-center justify-around">
                 <h3 className="text-2xl font-semibold mb-3">
                   Interested in this project?
                 </h3>
@@ -150,7 +150,7 @@ export default async function ProjectPage({ params }: PageProps) {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-blue-600 bg-white hover:bg-gray-50 transition-all duration-200 hover:shadow-md"
+                    className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-black/20 hover:bg-black/30 transition-all duration-200 hover:shadow-md"
                   >
                     <ExternalLink className="mr-2 h-5 w-5" />
                     View Live Demo
@@ -159,7 +159,7 @@ export default async function ProjectPage({ params }: PageProps) {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-black/20 hover:bg-black/30 border border-white/20 transition-all duration-200 hover:shadow-md"
+                    className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-black/20 hover:bg-black/30 border border-white/10 transition-all duration-200 hover:shadow-md"
                   >
                     <Github className="mr-2 h-5 w-5" />
                     View Source Code
@@ -170,17 +170,17 @@ export default async function ProjectPage({ params }: PageProps) {
           </div>
 
           {/* Sidebar */}
-          <div className="lg:col-span-1 space-y-6 sticky top-6 h-fit">
+          <div className="lg:col-span-2 space-y-6 sticky top-6 h-fit max-w-8xl mx-auto text-center justify-around">
             {/* Technologies */}
-            <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-sm border border-gray-200 dark:border-gray-800">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 pb-2 border-b border-gray-200 dark:border-gray-800">
+            <div className="bg-white dark:bg-gray-950 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-800">
+              <h3 className="text-xl font-semibold text-gray-950 dark:text-white mb-4 pb-2 border-b border-gray-200 dark:border-gray-800">
                 Technologies Used
               </h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 justify-center">
                 {project.technologies.map((tech) => (
                   <span
                     key={tech}
-                    className="inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 hover:scale-105 transition-transform duration-150"
+                    className="inline-flex items-center px-3 py-1.5 rounded-[2px] text-sm font-medium bg-gray-950 text-gray-800 dark:bg-gray-900 dark:text-gray-300"
                   >
                     {tech}
                   </span>
@@ -189,7 +189,7 @@ export default async function ProjectPage({ params }: PageProps) {
             </div>
 
             {/* Project Links */}
-            <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-sm border border-gray-200 dark:border-gray-800">
+            <div className="bg-white dark:bg-gray-950 rounded-[5px] p-6 shadow-sm border border-gray-200 dark:border-gray-800">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 pb-2 border-b border-gray-200 dark:border-gray-800">
                 Project Links
               </h3>
@@ -198,7 +198,7 @@ export default async function ProjectPage({ params }: PageProps) {
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-center justify-between p-3 rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200"
+                  className="group flex items-center justify-between p-3 rounded-2xl bg-gray-50 dark:bg-gray-950 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200"
                 >
                   <div className="flex items-center space-x-3">
                     <ExternalLink className="h-5 w-5 text-gray-600 dark:text-gray-400" />
@@ -210,7 +210,7 @@ export default async function ProjectPage({ params }: PageProps) {
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-center justify-between p-3 rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200"
+                  className="group flex items-center justify-between p-3 rounded-lg bg-gray-50 dark:bg-gray-950 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200"
                 >
                   <div className="flex items-center space-x-3">
                     <Github className="h-5 w-5 text-gray-600 dark:text-gray-400" />
@@ -222,7 +222,7 @@ export default async function ProjectPage({ params }: PageProps) {
             </div>
 
             {/* More Projects */}
-            <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-sm border border-gray-200 dark:border-gray-800">
+            <div className="bg-white dark:bg-gray-900 rounded-[5px] p-6 shadow-sm border border-gray-200 dark:border-gray-800">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 pb-2 border-b border-gray-200 dark:border-gray-800">
                 More Projects
               </h3>

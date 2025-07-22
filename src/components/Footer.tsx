@@ -93,7 +93,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="border-t border-gray-200 dark:border-gray-800 py-6">
+      <div className="border-t-2 border-white py-6">
         <div className="max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4 text-gray-600 dark:text-gray-400">
           <motion.p
             initial={{ opacity: 0 }}
