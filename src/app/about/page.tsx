@@ -110,21 +110,21 @@ export default function About() {
               className="lg:col-span-2 space-y-8"
             >
               <div className="space-y-6">
-                <h2 className="text-[12px] font-bold text-gray-900 dark:text-white">
-                  Hi, I&apos;m Your Name
+                <h2 className="text-[12px] font-bold text-gray-900 dark:text-white text-center">
+                  Hi, I&apos;m Chandan Sharma
                 </h2>
-                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed text-center">
                   I&apos;m a passionate full-stack developer and researcher with over 2 years of experience building scalable AI-Tools, Web
                   applications, and contributing to cutting-edge research in computer science. My journey in tech began
                   during my undergraduate studies, where I discovered my love for creating solutions that make a real impact.
                 </p>
-                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed text-center">
                   Throughout my career, I&apos;ve had the privilege of working with diverse teams and technologies, from building 
                   responsive frontends with React and Next.js to architecting robust backend systems with Node.js and 
                   Python. I believe in writing clean, maintainable code and following best practices to deliver exceptional user 
                   experiences.
                 </p>
-                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed text-center">
                   When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or 
                   sharing knowledge through technical writing and mentoring. I&apos;m always excited about new challenges and 
                   opportunities to grow both personally and professionally.

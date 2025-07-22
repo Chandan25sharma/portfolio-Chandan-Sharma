@@ -169,7 +169,7 @@ return (
             >
               <div className="mb-8">
                 <h2 className="text-2xl font-bold dark:text-white">Send a Message</h2>
-                <p className="mt-2 text-gray-900 dark:text-gray-700">
+                <p className="mt-2 text-gray-900 dark:text-gray-400">
                   Fill out the form below and I&#39;ll get back to you as soon as possible.
                 </p>
               </div>
