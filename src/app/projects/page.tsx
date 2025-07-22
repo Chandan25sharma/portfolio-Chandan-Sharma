@@ -29,7 +29,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="section-spacing bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
+      <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg4.jpg')] bg-cover">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -116,7 +116,7 @@ export default function Projects() {
       </section>
 
       {/* Projects Grid */}
-      <section className="section-spacing bg-gradient-to-br from-blue-50 via-white to-purple-100 bg-gradient-custom">
+      <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg2.jpeg')] bg-cover">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           {filteredProjects.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-gap-responsive">

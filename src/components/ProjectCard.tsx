@@ -36,7 +36,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group relative bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
+      className="group relative bg-[url('/images/bg1.jpg')] bg-cover bg-center bg-no-repeat rounded-lg"
     >
       {/* Image */}
       <div className="relative h-48 overflow-hidden">

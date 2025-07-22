@@ -8,7 +8,7 @@ export default function Research() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="section-spacing bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
+      <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg2.jpeg')] bg-cover">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           {/* Header */}
           <motion.div
@@ -69,7 +69,7 @@ export default function Research() {
       </section>
 
       {/* Research Areas & Content */}
-      <section className="section-spacing bg-white dark:bg-gray-950 section-spacing">
+      <section className="section-spacingsection-spacing relative overflow-hidden bg-[url('/images/bgimg2.jpeg')] bg-cover">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
 
         {/* Research Areas */}

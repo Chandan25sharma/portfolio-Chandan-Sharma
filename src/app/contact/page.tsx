@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Mail, MapPin, Phone, Github, Linkedin, Twitter, Clock, CheckCircle } from 'lucide-react';
-
+import emailjs from 'emailjs-com';
 interface FormData {
   name: string;
   email: string;
@@ -39,19 +39,19 @@ const socialLinks = [
   {
     icon: Github,
     label: 'GitHub',
-    href: 'https://github.com/yourusername',
+    href: 'https://github.com/chandan25sharma',
     description: 'View my projects and contributions'
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/yourprofile',
+    href: 'https://www.linkedin.com/in/chandan-sharma-55558b288/',
     description: 'Connect professionally'
   },
   {
     icon: Twitter,
     label: 'Twitter',
-    href: 'https://twitter.com/yourusername',
+    href: 'https://twitter.com/Chandan38643005',
     description: 'Follow for updates'
   }
 ];
@@ -87,24 +87,33 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
 
-    try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch {
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
-  return (
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+  setSubmitStatus('idle');
+  try {
+    await emailjs.send(
+      'service_v7bejd6',
+      'template_d86vp5k',
+      {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message
+      },
+      'W2c-VROsY-R4BlKsZ'
+    );
+    setSubmitStatus('success');
+    setFormData({ name: '', email: '', subject: '', message: '' });
+  } catch {
+    setSubmitStatus('error');
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       {/* Hero Section */}
       <section className="relative overflow-hidden section-spacing">

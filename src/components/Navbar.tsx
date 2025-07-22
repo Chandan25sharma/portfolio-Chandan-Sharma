@@ -21,7 +21,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
-  // Fix hydration issues
+
   useEffect(() => {
     setMounted(true);
   }, []);

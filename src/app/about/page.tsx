@@ -66,7 +66,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="section-spacing bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
+      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bg1.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -114,8 +114,8 @@ export default function About() {
                   Hi, I&apos;m Your Name
                 </h2>
                 <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-                  I&apos;m a passionate full-stack developer and researcher with over 5 years of experience building scalable web 
-                  applications and contributing to cutting-edge research in computer science. My journey in tech began 
+                  I&apos;m a passionate full-stack developer and researcher with over 2 years of experience building scalable AI-Tools, Web
+                  applications, and contributing to cutting-edge research in computer science. My journey in tech began
                   during my undergraduate studies, where I discovered my love for creating solutions that make a real impact.
                 </p>
                 <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
@@ -134,11 +134,11 @@ export default function About() {
               <div className="flex flex-wrap gap-4 lg:gap-6">
                 <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                   <MapPin className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  <span className="text-lg">📍 Based in Your City, Country</span>
+                  <span className="text-lg">📍 Based in Kathmandu, Nepal</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                   <Calendar className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  <span className="text-lg">🎯 Available for new opportunities</span>
+                  <span className="text-lg">Available for new opportunities</span>
                 </div>
               </div>
             </motion.div>
@@ -173,7 +173,7 @@ export default function About() {
       </section>
 
       {/* Technical Skills Section */}
-      <section className="section-spacing py-20 lg:py-32 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+      <section className="section-spacing py-20 lg:py-32 bg-gradient-custom2">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -220,7 +220,7 @@ export default function About() {
       </section>
 
       {/* My Journey Timeline */}
-      <section className="section-spacing py-20 lg:py-32 bg-white dark:bg-gray-950">
+      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bg2.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

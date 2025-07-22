@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="min-h-screen min-w-full items-center justify-center">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
+      <section className="relative overflow-hidden bg-[url('/images/bgimg4.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-grid-black/[0.02] dark:bg-grid-white/[0.02]" />
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 to-purple-600/5 dark:from-blue-600/10 dark:to-purple-600/10" />
         <div className="relative mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
@@ -104,7 +104,7 @@ export default function Home() {
                   <ArrowRight className="ml-3 lg:ml-4 h-6 lg:h-7 w-6 lg:w-7 group-hover:translate-x-2 transition-transform duration-300" />
                 </Link>
                 <a
-                  href="/resume.pdf"
+                  href="/papers/resume2.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 lg:px-12 py-4 lg:py-5 text-lg lg:text-xl font-bold rounded-2xl text-gray-700 bg-white border-2 border-gray-300 hover:bg-gray-50 dark:text-gray-300 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform"
@@ -129,7 +129,7 @@ export default function Home() {
                   <Github className="h-8 lg:h-10 w-8 lg:w-10" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/chandansharma"
+                  href="https://www.linkedin.com/in/chandan-sharma-55558b288/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 lg:p-4 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg transform"
@@ -172,7 +172,7 @@ export default function Home() {
 
       {/* Features Section */}
       <section className="section-spacing bg-white dark:bg-gray-950 relative">
-        <div className="absolute w-full inset-0 bg-gradient-to-b from-gray-50/50 to-white dark:from-gray-900/50 dark:to-gray-950" />
+        <div className="absolute w-full inset-0 bg-[url('/images/bgimg4.jpg')] bg-cover bg-center bg-no-repeat rounded-lg" />
         <div className="relative mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section className="py-4 section-spacing bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 relative rounded-lg">
+      <section className="py-4 section-spacing bg-[url('/images/bgimg4.jpg')] bg-cover bg-center bg-no-repeat rounded-lg">
       <div className="absolute inset-0 bg-grid-black/[0.02] dark:bg-grid-white/[0.02]" />
        <div className="relative mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
         <motion.div
@@ -256,7 +256,7 @@ export default function Home() {
 
       {/* Featured Projects Section */}
       <section className="section-spacing bg-white dark:bg-gray-950 relative rounded-lg">
-        <div className="absolute inset-0 bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900" />
+        <div className="absolute inset-0 overflow-hidden bg-[url('/images/bgimg4.jpg')] bg-cover" />
         <div className="relative mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -305,7 +305,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="section-spacing bg-gradient-to-br from-blue-600 via-blue-700 to-yellow-700 relative overflow-hidden rounded-lg">
+      <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg4.jpg')] bg-cover">
        <div className="absolute inset-0 bg-grid-white/[0.05]" />
         <div className="absolute inset-0 bg-gradient-to-r from-gray-800/90 to-blue-900/90" />
          <div className="relative mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
