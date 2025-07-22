@@ -44,15 +44,15 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
   return (
     <div className="space-y-8">
       {/* Category Filter */}
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-5 justify-center mb-6 bg-gray-900">
         {categories.map((category) => (
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+            className={`gap-3 px-4 py-2 rounded-lg text-sm font-medium transition-colors bg-amber-200 ${
               selectedCategory === category
                 ? 'bg-blue-600 text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-950 dark:text-gray-300 dark:hover:bg-gray-950'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-950 dark:text-gray-600 dark:hover:bg-gray-950'
             }`}
           >
             {category === 'all' ? 'All Papers' : category}

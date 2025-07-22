@@ -110,13 +110,13 @@ export default function Research() {
             About My Research
           </h2>
           <div className="space-y-6">
-            <p className="text-[14px] text-gray-600 dark:text-gray-400 leading-relaxed">
-              My research focuses on the intersection of practical software engineering and cutting-edge 
-              computer science theory. I&apos;m particularly interested in how we can optimize modern 
-              computing systems for real-world applications, from improving machine learning model 
+            <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed text-center">
+              My research focuses on the intersection of practical software engineering and cutting-edge
+              computer science theory. I&apos;m particularly interested in how we can optimize modern
+              computing systems for real-world applications, from improving machine learning model
               efficiency to enhancing blockchain scalability.
             </p>
-            <p className="text-[14px] text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed text-center">
               Through collaboration with leading institutions and industry partners, my work aims to 
               bridge the gap between academic research and practical implementation, ensuring that 
               theoretical advances can be effectively deployed in production environments.
