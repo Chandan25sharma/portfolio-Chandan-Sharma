@@ -142,7 +142,7 @@ export default function Home() {
                 <div className="absolute inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-15 blur-2xl animate-pulse" style={{ animationDelay: '1s' }} />
                 <div className="absolute inset-8 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full opacity-10 blur-xl animate-pulse" style={{ animationDelay: '2s' }} />
                 <Image
-                   src="/images/chandanProfile.jpg"
+                   src="/images/chandan1.jpg"
                   alt="Chandan Sharma"
                   fill
                   className="object-cover rounded-full border-4 lg:border-8 border-white dark:border-gray-800 shadow-2xl relative z-10"
