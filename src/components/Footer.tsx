@@ -36,7 +36,7 @@ export default function Footer() {
           <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
             Full-stack developer & researcher building scalable and impactful digital solutions.
           </p>
-          <div className="flex items-center space-x-4 pt-2">
+          <div className="flex items-center space-x-4 pt-2 gap-2">
             {socialLinks.map((social) => (
               <motion.a
                 key={social.name}
@@ -44,7 +44,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
-                className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+                className=" text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
                 aria-label={social.name}
               >
                 <social.icon className="w-5 h-5" />
@@ -94,19 +94,19 @@ export default function Footer() {
 
       {/* Bottom Footer */}
       
-      <div className="border-t-2 border-white py-6 section-spacing">
+      <div className="border-t-2 border-white py-6 section-spacing2">
         <div className="w-full h-px bg-white opacity-50"></div>
-        <div className="max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4 text-gray-600 dark:text-gray-400">
+        <div className="max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-center gap-2 text-gray-600 dark:text-gray-400">
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="flex items-center gap-1 text-[12px] text-center"
+            className="flex items-center gap-3 text-[12px] text-center"
           >
-            © {new Date().getFullYear()} Chandan Sharma. Made with{' '}
-            <Heart className="h-4 w-4 text-red-500" fill="currentColor" /> and Next.js.
+            © {new Date().getFullYear()} Chandan Sharma.{' '}
+            <Heart className="h-4 w-4 text-red-500" fill="currentColor" />
           </motion.p>
-          <div className="flex gap-6 text-[12px]">
+          <div className="flex gap-4 text-[12px]">
             <Link href="/privacy" className="hover:text-blue-600 dark:hover:text-blue-400">
               Privacy Policy
             </Link>

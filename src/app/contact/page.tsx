@@ -114,17 +114,17 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   }
 };
 return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen dark:bg-gray-950 bg-transparent">
       {/* Hero Section */}
       <section className="relative overflow-hidden section-spacing">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 dark:from-blue-900/20 dark:to-purple-900/20"></div>
+        <div className="absolute inset-0 bg-gray-950"></div>
         <div className="relative max-w-8xl mx-auto px-6 py-24 sm:py-32 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:text-6xl">
+            <h1 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:text-6xl">
               Let&apos;s Connect
             </h1>
             <p className="mt-6 text-xl text-gray-600 dark:text-gray-300 max-w-8xl mx-auto">

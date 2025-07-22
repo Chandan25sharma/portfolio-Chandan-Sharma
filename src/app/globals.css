@@ -592,8 +592,8 @@ body {
 }
 
 .section-spacing2 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom:0;
 }
 @media (min-width: 24px) {
   .section-spacing {
