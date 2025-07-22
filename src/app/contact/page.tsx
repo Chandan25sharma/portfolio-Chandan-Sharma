@@ -135,7 +135,7 @@ return (
       </section>
 
       {/* Main Content */}
-      <section className="relative z-10 -mt-12 pb-24 section-spacing">
+      <section className="relative z-10 -mt-12 pb-24 section-spacing bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="max-w-8xl mx-auto px-6 sm:px-8 lg:px-12">
           {/* Key Points */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
@@ -145,7 +145,7 @@ return (
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white dark:bg-gray-950 rounded-[2px] shadow-sm p-6 border border-gray-200 dark:border-gray-800 hover:shadow-md transition-shadow"
+                className="bg-[url('/images/bgimg7.jpg')] bg-cover bg-center bg-no-repeat rounded-[5px] shadow-sm p-6 border border-gray-200 dark:border-gray-800 hover:shadow-md transition-shadow"
               >
                 <div className="flex items-start">
                   <div className="flex-shrink-0 bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg">
@@ -165,7 +165,7 @@ return (
             {/* Contact Form */}
             <motion.div
             
-              className="bg-gray-950 dark:bg-gray-950 rounded-[3px] shadow-lg p-8 border border-gray-200 dark:border-gray-800"
+              className="bg-[url('/images/bgimg5.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl"
             >
               <div className="mb-8">
                 <h2 className="text-2xl font-bold dark:text-white">Send a Message</h2>

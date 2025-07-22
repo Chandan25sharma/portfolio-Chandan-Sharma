@@ -66,7 +66,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bg1.jpg')] bg-cover bg-center bg-no-repeat">
+      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -173,7 +173,7 @@ export default function About() {
       </section>
 
       {/* Technical Skills Section */}
-      <section className="section-spacing py-20 lg:py-32 bg-gradient-custom2">
+      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bgimg8.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -220,7 +220,7 @@ export default function About() {
       </section>
 
       {/* My Journey Timeline */}
-      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bg2.jpg')] bg-cover bg-center bg-no-repeat">
+      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bgimg10.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

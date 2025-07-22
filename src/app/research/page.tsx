@@ -8,7 +8,7 @@ export default function Research() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg2.jpeg')] bg-cover">
+      <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg6.jpg')] bg-cover">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           {/* Header */}
           <motion.div
@@ -19,7 +19,7 @@ export default function Research() {
             <h1 className="text-section text-gray-900 dark:text-white mb-6 tracking-tight">
               Research Papers
             </h1>
-            <p className="text-large text-gray-600 dark:text-gray-400 max-w-8xl mx-auto leading-relaxed">
+            <p className="text-large text-gray-600 dark:text-gray-200 max-w-8xl mx-auto leading-relaxed">
               A collection of my research contributions in computer science, focusing on 
               machine learning, distributed systems, and emerging technologies
             </p>
@@ -69,7 +69,7 @@ export default function Research() {
       </section>
 
       {/* Research Areas & Content */}
-      <section className="section-spacingsection-spacing relative overflow-hidden bg-[url('/images/bgimg2.jpeg')] bg-cover">
+      <section className="section-spacingsection-spacing relative overflow-hidden bg-[url('/images/bgimg9.jpg')] bg-cover">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
 
         {/* Research Areas */}

@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="min-h-screen min-w-full items-center justify-center">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-[url('/images/bgimg4.jpg')] bg-cover bg-center bg-no-repeat">
+      <section className="relative overflow-hidden bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-grid-black/[0.02] dark:bg-grid-white/[0.02]" />
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 to-purple-600/5 dark:from-blue-600/10 dark:to-purple-600/10" />
         <div className="relative mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
@@ -172,7 +172,7 @@ export default function Home() {
 
       {/* Features Section */}
       <section className="section-spacing bg-white dark:bg-gray-950 relative">
-        <div className="absolute w-full inset-0 bg-[url('/images/bgimg4.jpg')] bg-cover bg-center bg-no-repeat rounded-lg" />
+        <div className="absolute w-full inset-0 bg-[url('/images/bgimg8.jpg')] bg-cover bg-center bg-no-repeat rounded-lg" />
         <div className="relative mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -256,7 +256,7 @@ export default function Home() {
 
       {/* Featured Projects Section */}
       <section className="section-spacing bg-white dark:bg-gray-950 relative rounded-lg">
-        <div className="absolute inset-0 overflow-hidden bg-[url('/images/bgimg4.jpg')] bg-cover" />
+        <div className="absolute inset-0 overflow-hidden bg-[url('/images/bgimg6.jpg')] bg-cover" />
         <div className="relative mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
