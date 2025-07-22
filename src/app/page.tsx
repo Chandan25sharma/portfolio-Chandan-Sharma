@@ -137,7 +137,7 @@ export default function Home() {
                   <Linkedin className="h-8 lg:h-10 w-8 lg:w-10" />
                 </a>
                 <a
-                  href="mailto:your.mrchandansharma25@gmail.com"
+                  href="mailto:mrchandansharma25@gmail.com"
                   className="p-3 lg:p-4 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg transform"
                 >
                   <Mail className="h-8 lg:h-10 w-8 lg:w-10" />

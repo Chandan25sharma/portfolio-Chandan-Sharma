@@ -19,7 +19,7 @@ export default async function ProjectPage({ params }: PageProps) {
   }
 
   return (
-    <div className="min-h-screen py-12 md:py-20 bg-gray-50/50 dark:bg-gray-900/50">
+    <div className="min-h-screen py-12 md:py-20section-spacing bg-gradient-to-br from-blue-50 via-white to-purple-100 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         {/* Back Button */}
         <div className="mb-8">

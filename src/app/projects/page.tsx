@@ -116,7 +116,7 @@ export default function Projects() {
       </section>
 
       {/* Projects Grid */}
-      <section className="section-spacing bg-white dark:bg-gray-950">
+      <section className="section-spacing bg-gradient-to-br from-blue-50 via-white to-purple-100 bg-gradient-custom">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           {filteredProjects.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-gap-responsive">

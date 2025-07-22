@@ -28,8 +28,8 @@
   --gray-900: #111827;
   
   /* Spacing & dimensions */
-  --scroll-width: 8px;
-  --border-radius: 4px;
+  --scroll-width: 6px;
+  --border-radius: 6px;
   --outline-width: 2px;
   --outline-offset: 2px;
 }
@@ -45,8 +45,8 @@
    GLOBAL RESET & BASE STYLES
 ======================================== */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 2px;
   box-sizing: border-box;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--gray-100);
+  background: var(--gray-400);
 }
 
 .dark ::-webkit-scrollbar-track {
@@ -81,7 +81,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--gray-300);
   border-radius: var(--border-radius);
-  transition: background-color 0.2s ease;
+  transition: background-color 0.5s ease;
 }
 
 .dark ::-webkit-scrollbar-thumb {
@@ -95,6 +95,18 @@ body {
 .dark ::-webkit-scrollbar-thumb:hover {
   background: var(--gray-500);
 }
+/* In your globals.css or styles.css */
+.bg-gradient-custom {
+  background-image: linear-gradient(
+    to right,
+    #0b0211,  /* purple-900 */
+    #100000,  /* slate-950 */
+    #111827,  /* gray-900 */
+    #021432,  /* gray-800 */
+    #0f172a   /* slate-950 again */
+  );
+}
+
 
 /* ========================================
    SELECTION & FOCUS STYLES

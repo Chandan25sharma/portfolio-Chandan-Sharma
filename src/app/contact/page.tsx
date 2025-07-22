@@ -22,15 +22,15 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Kathmandu, Nepal',
+    value: 'Saudi Arabia',
     href: null,
     description: 'Based here, open to remote work'
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+977 98XXXXXXXX',
-    href: 'tel:+97798XXXXXXXX',
+    value: '+966 534385571',
+    href: 'tel:+966534385571',
     description: 'Available during business hours'
   }
 ];
@@ -136,7 +136,7 @@ export default function Contact() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-6 border border-gray-200 dark:border-gray-800 hover:shadow-md transition-shadow"
+                className="bg-white dark:bg-gray-950 rounded-[2px] shadow-sm p-6 border border-gray-200 dark:border-gray-800 hover:shadow-md transition-shadow"
               >
                 <div className="flex items-start">
                   <div className="flex-shrink-0 bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg">
@@ -155,22 +155,20 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 section-spacing">
             {/* Contact Form */}
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 border border-gray-200 dark:border-gray-800"
+            
+              className="bg-gray-950 dark:bg-gray-950 rounded-[3px] shadow-lg p-8 border border-gray-200 dark:border-gray-800"
             >
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Send a Message</h2>
-                <p className="mt-2 text-gray-600 dark:text-gray-400">
+                <h2 className="text-2xl font-bold dark:text-white">Send a Message</h2>
+                <p className="mt-2 text-gray-900 dark:text-gray-700">
                   Fill out the form below and I&#39;ll get back to you as soon as possible.
                 </p>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <label htmlFor="name" className="text-sm font-medium dark:text-white mb-4">
                       Your Name *
                     </label>
                     <input
@@ -180,12 +178,12 @@ export default function Contact() {
                       required
                       value={formData.name}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                      placeholder="John Doe"
+                      className="w-full px-4 py-3 border "
+                      placeholder="Enter your name"
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <label htmlFor="email" className="text-sm font-medium dark:text-white mb-2">
                       Email Address *
                     </label>
                     <input
@@ -195,7 +193,7 @@ export default function Contact() {
                       required
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border-black rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-950 dark:placeholder-gray-950"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -282,7 +280,7 @@ export default function Contact() {
               className="space-y-8 "
             >
               {/* Contact Details */}
-              <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 border border-gray-200 dark:border-gray-800 ">
+              <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-8 border border-gray-200 dark:border-gray-800 ">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Details</h2>
                 <div className="space-y-6">
                   {contactInfo.map((item) => (
@@ -315,7 +313,7 @@ export default function Contact() {
               className="section-spacing "
             ></motion.div>
               {/* Social Links */}
-              <div className="bg-white dark:bg-gray-900 shadow-lg p-8 border border-gray-200 dark:border-gray-800 ">
+              <div className="bg-white dark:bg-gray-950 shadow-lg p-8 border border-gray-200 dark:border-gray-800 ">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect With Me</h2>
                 <p className="text-gray-600 dark:text-gray-400 mb-6">
                   Follow me on social media to stay updated with my latest projects and insights.
@@ -342,9 +340,9 @@ export default function Contact() {
               className="section-spacing "
             ></motion.div>
               {/* Availability */}
-              <div className="bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-8 border border-blue-200 dark:border-blue-800">
+              <div className="bg-blue-50 dark:bg-blue-900/10 rounded-2xl p-8 border border-blue-200 dark:border-blue-800">
                 <h3 className="text-xl font-bold text-blue-800 dark:text-blue-200 mb-3">Current Availability</h3>
-                <p className="text-blue-700 dark:text-blue-300">
+                <p className="text-blue-700 dark:text-green-100">
                   I&#39;m currently accepting new projects and opportunities. Whether you need a full-time developer, 
                   consultant, or just want to discuss an idea, I&#39;d be happy to connect.
                 </p>

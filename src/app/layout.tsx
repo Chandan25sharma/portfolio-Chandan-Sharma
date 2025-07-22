@@ -45,7 +45,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans antialiased`}>
         <ThemeProvider>
-          <div className="min-h-screen-100% bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
+          <div className="min-h-screen-90% bg-white dark:bg-gray-950 text-gray-950 dark:text-white">
             <Navbar />
             <main className="flex-1">
               {children}

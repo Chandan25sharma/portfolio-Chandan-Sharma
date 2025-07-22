@@ -20,9 +20,9 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800 px-8 text-sm section-spacing">
+    <footer className="bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800 px-8 text-sm section-spacing w-screen-70%">
       {/* Main Content */}
-      <div className="max-w-8xl mx-auto py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="max-w-7xl mx-auto py-1 grid grid-cols-1 md:grid-cols-3 gap-4 justify-around">
         {/* Left: Brand Info */}
         <div className="space-y-4">
           <motion.h3
@@ -55,7 +55,7 @@ export default function Footer() {
 
         {/* Middle: Quick Links */}
         <div>
-          <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Quick Links</h4>
+          <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 ">Quick Links</h4>
           <ul className="space-y-2">
             {quickLinks.map((link) => (
               <li key={link.name}>
@@ -94,7 +94,7 @@ export default function Footer() {
 
       {/* Bottom Footer */}
       <div className="border-t border-gray-200 dark:border-gray-800 py-6">
-        <div className="max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-gray-600 dark:text-gray-400">
+        <div className="max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4 text-gray-600 dark:text-gray-400">
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
