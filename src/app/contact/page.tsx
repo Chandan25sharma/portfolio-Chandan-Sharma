@@ -165,7 +165,7 @@ return (
             {/* Contact Form */}
             <motion.div
             
-              className="bg-[url('/images/bgimg5.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl"
+              className="bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl"
             >
               <div className="mb-8">
                 <h2 className="text-2xl font-bold dark:text-white">Send a Message</h2>

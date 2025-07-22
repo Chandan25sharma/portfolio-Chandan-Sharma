@@ -20,11 +20,11 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800 px-8 text-sm section-spacing ">
+    <footer className="bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800 px-8 text-[12px] section-spacing justify-center">
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto py-1 grid grid-cols-1 md:grid-cols-3 gap-4 justify-around">
+      <div className="max-w-8xl mx-auto py-1 grid grid-cols-1 md:grid-cols-3 gap-4 container-responsive4">
         {/* Left: Brand Info */}
-        <div className="space-y-4">
+        <div className="space-y-4 ">
           <motion.h3
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
 
         {/* Middle: Quick Links */}
-        <div>
+        <div >
           <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 ">Quick Links</h4>
           <ul className="space-y-2">
             {quickLinks.map((link) => (
@@ -93,18 +93,20 @@ export default function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="border-t-2 border-white py-6">
+      
+      <div className="border-t-2 border-white py-6 section-spacing">
+        <div className="w-full h-px bg-white opacity-50"></div>
         <div className="max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4 text-gray-600 dark:text-gray-400">
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="flex items-center gap-1 text-sm text-center"
+            className="flex items-center gap-1 text-[12px] text-center"
           >
             © {new Date().getFullYear()} Chandan Sharma. Made with{' '}
             <Heart className="h-4 w-4 text-red-500" fill="currentColor" /> and Next.js.
           </motion.p>
-          <div className="flex gap-6 text-sm">
+          <div className="flex gap-6 text-[12px]">
             <Link href="/privacy" className="hover:text-blue-600 dark:hover:text-blue-400">
               Privacy Policy
             </Link>

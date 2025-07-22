@@ -110,21 +110,21 @@ export default function About() {
               className="lg:col-span-2 space-y-8"
             >
               <div className="space-y-6">
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
+                <h2 className="text-[12px] font-bold text-gray-900 dark:text-white">
                   Hi, I&apos;m Your Name
                 </h2>
-                <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed">
                   I&apos;m a passionate full-stack developer and researcher with over 2 years of experience building scalable AI-Tools, Web
                   applications, and contributing to cutting-edge research in computer science. My journey in tech began
                   during my undergraduate studies, where I discovered my love for creating solutions that make a real impact.
                 </p>
-                <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed">
                   Throughout my career, I&apos;ve had the privilege of working with diverse teams and technologies, from building 
                   responsive frontends with React and Next.js to architecting robust backend systems with Node.js and 
                   Python. I believe in writing clean, maintainable code and following best practices to deliver exceptional user 
                   experiences.
                 </p>
-                <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-[12px] text-gray-600 dark:text-gray-400 leading-relaxed">
                   When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or 
                   sharing knowledge through technical writing and mentoring. I&apos;m always excited about new challenges and 
                   opportunities to grow both personally and professionally.
@@ -134,11 +134,11 @@ export default function About() {
               <div className="flex flex-wrap gap-4 lg:gap-6">
                 <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                   <MapPin className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  <span className="text-lg">📍 Based in Kathmandu, Nepal</span>
+                  <span className="text-[16px]">Based in Kathmandu, Nepal</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                   <Calendar className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  <span className="text-lg">Available for new opportunities</span>
+                  <span className="text-[16px]">Available for new Project Collaborations</span>
                 </div>
               </div>
             </motion.div>
@@ -147,7 +147,7 @@ export default function About() {
       </section>
 
       {/* Stats Section */}
-      <section className="section-spacing py-20 lg:py-32 bg-white dark:bg-gray-950">
+      <section className="section-spacing py-15 lg:py-25 bg-white dark:bg-gray-950">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             {stats.map((stat, index) => (
@@ -157,10 +157,10 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="text-center p-6 lg:p-8 rounded-2xl bg-gray-50 dark:bg-gray-900 hover:shadow-xl transition-all duration-300"
+                className="text-center p-6 lg:p-8 rounded-xl bg-gray-50 dark:bg-gray-900 hover:shadow-xl transition-all duration-300"
               >
-                <stat.icon className="h-12 w-12 lg:h-16 lg:w-16 text-blue-600 dark:text-blue-400 mx-auto mb-4" />
-                <div className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+                <stat.icon className="h-6 w-8 lg:h-16 lg:w-16 text-blue-600 dark:text-blue-400 mx-auto mb-4" />
+                <div className="text-xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-2">
                   {stat.value}
                 </div>
                 <div className="text-lg text-gray-600 dark:text-gray-400">
@@ -173,7 +173,7 @@ export default function About() {
       </section>
 
       {/* Technical Skills Section */}
-      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bgimg8.jpg')] bg-cover bg-center bg-no-repeat">
+      <section className="section-spacing py-15 lg:py-25 bg-[url('/images/bgimg8.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -181,10 +181,10 @@ export default function About() {
             viewport={{ once: true }}
             className="text-center mb-16 lg:mb-20"
           >
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 dark:text-white mb-6 lg:mb-8 tracking-tight">
+            <h2 className="text-[16px] font-black text-gray-900 dark:text-white mb-6 lg:mb-8 tracking-tight">
               Technical Skills
             </h2>
-            <p className="text-xl sm:text-2xl lg:text-3xl text-gray-600 dark:text-gray-400 max-w-4xl mx-auto font-light">
+            <p className="text-[14px]  text-gray-600 dark:text-gray-400 max-w-4xl mx-auto font-light">
               Technologies and tools I work with to build amazing products
             </p>
           </motion.div>
@@ -197,7 +197,7 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="p-6 lg:p-8 rounded-2xl lg:rounded-3xl bg-white dark:bg-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
+                className="p-6 lg:p-8 rounded-[6px] bg-white dark:bg-gray-950 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
               >
                 <h3 className="text-xl lg:text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
                   {skillGroup.category}
@@ -206,7 +206,7 @@ export default function About() {
                   {skillGroup.items.map((skill) => (
                     <div
                       key={skill}
-                      className="flex items-center gap-3 p-3 rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                      className="flex items-center gap-3 p-3 rounded-[0px] bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat dark:hover:bg-gray-700 transition-colors"
                     >
                       <div className="w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full" />
                       <span className="text-gray-700 dark:text-gray-300 font-medium">{skill}</span>
@@ -220,25 +220,25 @@ export default function About() {
       </section>
 
       {/* My Journey Timeline */}
-      <section className="section-spacing py-20 lg:py-32 bg-[url('/images/bgimg10.jpg')] bg-cover bg-center bg-no-repeat">
+      <section className="section-spacing py-15 lg:py-25 bg-[url('/images/bgimg10.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16 lg:mb-20"
+            className="text-center mb-12 lg:mb-16"
           >
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 dark:text-white mb-6 lg:mb-8 tracking-tight">
+            <h2 className="text-[16px] font-black text-gray-900 dark:text-white mb-6 lg:mb-8 tracking-tight">
               My Journey
             </h2>
-            <p className="text-xl sm:text-2xl lg:text-3xl text-gray-600 dark:text-gray-400 max-w-8xl mx-auto font-light">
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px] text-gray-600 dark:text-gray-400 max-w-8xl mx-auto font-light">
               A timeline of my professional and educational milestones
             </p>
           </motion.div>
 
-          <div className="relative max-w-4xl mx-auto">
+          <div className="relative max-w-8xl mx-auto container-responsive3">
             {/* Timeline line */}
-            <div className="absolute left-4 lg:left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-gray-700 lg:transform lg:-translate-x-0.5" />
+            <div className="absolute left-2 right-2 lg:left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-gray-700 lg:transform lg:-translate-x-0.5" />
 
             <div className="space-y-12 lg:space-y-16">
               {timeline.map((item, index) => (
@@ -253,28 +253,28 @@ export default function About() {
                   }`}
                 >
                   {/* Timeline dot */}
-                  <div className="absolute left-4 lg:left-1/2 w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full border-4 border-white dark:border-gray-950 lg:transform lg:-translate-x-1/2 z-10" />
-                  
+                  <div className="absolute left-0 lg:left-1/2 w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full border-4 border-white dark:border-gray-950 lg:transform lg:-translate-x-1/2 z-10" />
+
                   {/* Content */}
                   <div className={`ml-12 lg:ml-0 lg:w-1/2 ${index % 2 === 0 ? 'lg:pr-12' : 'lg:pl-12'}`}>
-                    <div className="p-6 lg:p-8 rounded-2xl bg-gray-50 dark:bg-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700">
+                    <div className="p-6 lg:p-8 rounded-[4px] bg-gray-50 dark:bg-gray-950 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700">
                       <div className="flex items-center gap-3 mb-4">
-                        <span className="text-xl lg:text-2xl font-bold text-blue-600 dark:text-blue-400">
+                        <span className="text-[16px] font-bold text-blue-950 dark:text-blue-900">
                           {item.year}
                         </span>
-                        <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                        <span className={`px-3 py-1 rounded-[1px] text-sm font-medium ${
                           typeColors[item.type as keyof typeof typeColors]
                         }`}>
                           {item.type}
                         </span>
                       </div>
-                      <h3 className="text-xl lg:text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                      <h3 className="text-[13px]  text-gray-900 dark:text-white ">
                         {item.title}
                       </h3>
-                      <p className="text-lg text-blue-600 dark:text-blue-400 font-semibold mb-3">
+                      <p className="text-lg text-blue-900 dark:text-blue-800 font-semibold mb-3">
                         {item.company}
                       </p>
-                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                      <p className="text-gray-200 dark:text-gray-500 leading-relaxed">
                         {item.description}
                       </p>
                     </div>

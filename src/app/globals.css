@@ -45,8 +45,8 @@
    GLOBAL RESET & BASE STYLES
 ======================================== */
 * {
-  margin: 1;
-  padding: 2px;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -491,15 +491,27 @@ body {
 .container-responsive1 {
   max-width: 100%;
   margin: 0 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
 }
 
 .container-responsive2 {
   max-width: 100%;
   margin: 0 auto;
-  padding-left: 4.5rem;
-  padding-right: 4.5rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+.container-responsive3 {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+.container-responsive4 {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
 }
 @media (min-width: 640px) {
   .container-responsive {
@@ -579,6 +591,10 @@ body {
   padding-bottom: 2rem;
 }
 
+.section-spacing2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 @media (min-width: 24px) {
   .section-spacing {
     padding-top: 2rem;

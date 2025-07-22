@@ -36,10 +36,10 @@ export default function Projects() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16 lg:mb-20"
           >
-            <h1 className="text-section text-gray-900 dark:text-white mb-6 tracking-tight">
+            <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
               My Projects
             </h1>
-            <p className="text-large text-gray-600 dark:text-gray-400 max-w-8xl mx-auto leading-relaxed">
+            <p className="text-[13px] text-gray-600 dark:text-gray-400 max-w-8xl mx-auto leading-relaxed">
               A collection of projects I&apos;ve worked on, showcasing different technologies and solutions
             </p>
           </motion.div>
@@ -52,28 +52,28 @@ export default function Projects() {
             className="mb-12 lg:mb-16 space-y-6"
           >
             {/* Search Bar */}
-            <div className="relative max-w-xl mx-auto ">
-              <Search className="absolute left-0 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-3" />
+            <div className="relative max-w-xl mx-auto gap-4 ">
+              <Search className="absolute left-0 top-1/2 transform -translate-y-1/2 text-gray-400 h-0 w-0" />
               <input
                 type="text"
                 placeholder="Search projects..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 text-lg border border-gray-300 border-r-4  focus:ring-2 focus:ring-blue-100 focus:border-transparent dark:bg-gray-800 dark:border-gray-600 dark:text-white dark:placeholder-gray-400"
+                className="left-4 w-full pl-1 pr-4 py-4 text-lg border-gray-300 border-r-4 focus:border-transparent dark:bg-gray-800 dark:border-gray-600 dark:text-white dark:placeholder-gray-400"
               />
             </div>
 
             {/* Category and Status Filters */}
-            <div className="flex flex-col sm:flex-row gap-6 items-center justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 items-center justify-center">
               <div className="flex items-center gap-3">
-                <Filter className="h-5 w-5 text-gray-600 dark:text-gray-400" />
-                <span className="text-lg font-semibold text-gray-700 dark:text-gray-300">Category:</span>
-                <div className="flex flex-wrap gap-2">
+                <Filter className="h-4 w-3 text-gray-600 dark:text-gray-400" />
+                <span className="text-[16px] font-semibold text-gray-700 dark:text-gray-300">Category:</span>
+                <div className="flex flex-wrap gap-1">
                   {categories.map((category) => (
                     <button
                       key={category}
                       onClick={() => setSelectedCategory(category)}
-                      className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                      className={`px-4 py-2 rounded-lg text-[12px] font-medium transition-all duration-200 ${
                         selectedCategory === category
                           ? 'bg-blue-600 text-white shadow-lg'
                           : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'
@@ -86,13 +86,13 @@ export default function Projects() {
               </div>
 
               <div className="flex items-center gap-3">
-                <span className="text-lg font-semibold text-gray-700 dark:text-gray-300">Status:</span>
-                <div className="flex flex-wrap gap-2">
+                <span className="text-[15px] font-semibold text-gray-700 dark:text-gray-300">Status:</span>
+                <div className="flex flex-wrap gap-1">
                   {statusFilters.map((status) => (
                     <button
                       key={status}
                       onClick={() => setSelectedStatus(status)}
-                      className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                      className={`px-4 py-2 rounded-lg text-[12px] font-medium transition-all duration-200 ${
                         selectedStatus === status
                           ? 'bg-blue-600 text-white shadow-lg'
                           : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'
@@ -107,7 +107,7 @@ export default function Projects() {
 
             {/* Results Count */}
             <div className="text-center">
-              <p className="text-lg text-gray-600 dark:text-gray-400">
+              <p className="text-[12px] text-gray-600 dark:text-gray-400">
                 Showing <span className="font-semibold text-blue-600 dark:text-blue-400">{filteredProjects.length}</span> of {projectsData.length} projects
               </p>
             </div>

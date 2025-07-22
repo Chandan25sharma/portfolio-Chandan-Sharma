@@ -52,7 +52,7 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
               selectedCategory === category
                 ? 'bg-blue-600 text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-900 dark:text-gray-300 dark:hover:bg-gray-900'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-950 dark:text-gray-300 dark:hover:bg-gray-950'
             }`}
           >
             {category === 'all' ? 'All Papers' : category}
@@ -69,42 +69,42 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 p-6 hover:shadow-lg transition-shadow cursor-pointer"
+            className="bg-white dark:bg-gray-950 rounded-lg text-[13px] border border-gray-200 dark:border-gray-950 p-6 hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => openPaperViewer(paper)}
           >
             <div className="flex items-start justify-between mb-4">
-              <div className="flex items-center space-x-2">
-                <FileText className="h-5 w-5 text-blue-900 dark:text-blue-400" />
-                <span className="text-sm font-medium text-blue-900 dark:text-blue-400">
+              <div className="flex items-center space-x-2 text">
+                <FileText className="h-5 w-5 text-blue-950 dark:text-blue-800" />
+                <span className="text-sm font-medium text-blue-900 dark:text-blue-800">
                   {paper.category}
                 </span>
               </div>
               <div className="flex items-center space-x-1 text-sm text-gray-500 dark:text-gray-400">
-                <BookOpen className="h-4 w-4" />
+                <BookOpen className="h-5 w-6" />
                 <span>{paper.citations}</span>
               </div>
             </div>
 
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
+            <h3 className="text-[10px] font-semibold text-gray-900 dark:text-white mb-2 line-clamp-3">
               {paper.title}
             </h3>
 
-            <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">
+            <p className="text-gray-600 text-[10px] dark:text-gray-400 text-sm mb-4 line-clamp-3">
               {paper.description}
             </p>
 
-            <div className="flex items-center space-x-4 text-sm text-gray-500 dark:text-gray-400 mb-4">
-              <div className="flex items-center space-x-1">
+            <div className="gap-4 h-8 flex items-center space-x-4 text-sm text-gray-500 dark:text-gray-400 mb-4">
+              <div className="flex items-center space-x-1 gap-1.5">
                 <Calendar className="h-4 w-4" />
                 <span>{paper.year}</span>
               </div>
-              <div className="flex items-center space-x-1">
+              <div className="gap-1 flex items-center space-x-1">
                 <Users className="h-4 w-4" />
                 <span>{paper.authors.length} authors</span>
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-1 mb-4">
+            <div className="flex flex-wrap gap-3 mb-4">
               {paper.keywords.slice(0, 3).map((keyword) => (
                 <span
                   key={keyword}
@@ -121,10 +121,10 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
             </div>
 
             <div className="flex items-center justify-between">
-              <span className="text-sm text-gray-500 dark:text-gray-400">
+              <span className="text-[11px] text-gray-500 dark:text-gray-400">
                 {paper.journal}
               </span>
-              <div className="flex space-x-2">
+              <div className="flex space-x-2 gap-4">
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
@@ -132,7 +132,7 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
                   }}
                   className="p-2 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
                 >
-                  <Download className="h-4 w-4" />
+                  <Download className="h-6 w-6" />
                 </button>
                 <button
                   onClick={(e) => {
@@ -162,16 +162,16 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
             initial={{ scale: 0.95, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.95, opacity: 0 }}
-            className="bg-white dark:bg-gray-900 rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-hidden"
+            className="bg-white dark:bg-gray-950 rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="p-6 border-b border-gray-200 dark:border-gray-800">
+            <div className="p-6 border-b border-gray-200 dark:border-gray-800 text-[12px]">
               <div className="flex items-start justify-between">
                 <div>
                   <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                     {selectedPaper.title}
                   </h2>
-                  <div className="flex items-center space-x-4 text-sm text-gray-500 dark:text-gray-400">
+                  <div className="flex items-center space-x-4 text-[12px] text-gray-500 dark:text-gray-400">
                     <span>{selectedPaper.authors.join(', ')}</span>
                     <span>•</span>
                     <span>{selectedPaper.journal}</span>
@@ -191,10 +191,10 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
             <div className="p-6 overflow-y-auto max-h-[calc(90vh-200px)]">
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-lg font-medium text-gray-700 dark:text-white mb-2 dark:bg-blue-950" >
+                  <h3 className="text-[14px] font-medium text-gray-700 dark:text-white mb-2 dark:bg-gray-900">
                     Abstract
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-[12px]">
                     {selectedPaper.abstract}
                   </p>
                 </div>
@@ -207,7 +207,7 @@ export default function PaperViewer({ papers }: PaperViewerProps) {
                     {selectedPaper.keywords.map((keyword) => (
                       <span
                         key={keyword}
-                        className="inline-flex items-center px-3 py-1 rounded-[] text-sm font-medium text-blue-800  dark:text-blue-500"
+                        className="inline-flex items-center text-[12px] px-3 py-1 rounded-[] font-medium text-blue-800  dark:text-blue-500"
                       >
                         {keyword}
                       </span>

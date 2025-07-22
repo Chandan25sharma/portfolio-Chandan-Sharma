@@ -84,7 +84,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.6 }}
-                className="text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 leading-relaxed min-h-40 max-w-2xl font-light"
+                className="text-lg sm:text-xl lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed min-h-40 max-w-2xl font-light"
               >
                 I&apos;m passionate about creating innovative solutions that bridge technology and real-world problems. 
                 With expertise in full-stack development and research in computer science, I bring ideas to life through elegant code.
@@ -96,22 +96,7 @@ export default function Home() {
                 transition={{ delay: 0.6, duration: 0.6 }}
                 className="flex flex-col sm:flex-row gap-6 lg:gap-8"
               >
-                <Link
-                  href="/projects"
-                  className="inline-flex items-center justify-center px-8 lg:px-12 py-4 lg:py-5 text-lg lg:text-xl font-bold rounded-2xl text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-xl shadow-blue-600/25 hover:shadow-2xl hover:shadow-blue-600/40 hover:scale-105 transform group"
-                >
-                  View My Work
-                  <ArrowRight className="ml-3 lg:ml-4 h-6 lg:h-7 w-6 lg:w-7 group-hover:translate-x-2 transition-transform duration-300" />
-                </Link>
-                <a
-                  href="/papers/resume2.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 lg:px-12 py-4 lg:py-5 text-lg lg:text-xl font-bold rounded-2xl text-gray-700 bg-white border-2 border-gray-300 hover:bg-gray-50 dark:text-gray-300 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform"
-                >
-                  <Download className="mr-3 lg:mr-4 h-6 lg:h-7 w-6 lg:w-7" />
-                  Download Resume
-                </a>
+                
               </motion.div>
 
               <motion.div
@@ -291,11 +276,11 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mt-16 lg:mt-20"
+            className="text-center mt-12 lg:mt-16"
           >
             <Link
               href="/projects"
-              className="btn-primary text-blue-600 bg-gradient-to-r from-blue-50 to-blue-100 hover:from-blue-100 hover:to-blue-200 dark:text-blue-400 dark:from-blue-950 dark:to-blue-900 dark:hover:from-blue-900 dark:hover:to-blue-800 shadow-lg group"
+              className="btn-primary text-4xl text-blue-600 bg-gradient-to-r from-blue-50 to-blue-100 hover:from-blue-100 hover:to-blue-200 dark:text-blue-400 dark:from-blue-950 dark:to-blue-900 dark:hover:from-blue-900 dark:hover:to-blue-800 shadow-lg group"
             >
               View All Projects
               <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
@@ -308,22 +293,22 @@ export default function Home() {
       <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg4.jpg')] bg-cover">
        <div className="absolute inset-0 bg-grid-white/[0.05]" />
         <div className="absolute inset-0 bg-gradient-to-r from-gray-800/90 to-blue-900/90" />
-         <div className="relative mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
+         <div className="relative mx-auto max-w-8xl max-h-55 px-6 sm:px-8 lg:px-12">
           <motion.div
            initial={{ opacity: 0, y: 20 }}
            whileInView={{ opacity: 1, y: 0 }}
            viewport={{ once: true }}
            className="text-center"
             >
-            <h2 className="text-section text-white mb-4 tracking-tight">Let&apos;s Work Together</h2>
-           <p className="text-large text-blue-100 max-w-8xl mx-auto mb-8 leading-relaxed">
+            <h2 className="text-8xl text-white mb-2 tracking-tight">Let&apos;s Work Together</h2>
+           <p className="text-[12px] text-blue-100 max-w-8xl mx-auto mb-8 leading-relaxed">
             I&apos;m always open to discussing new opportunities and interesting projects. 
              Get in touch and let&apos;s create something amazing together.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
              href="/contact"
-             className="btn-primary text-white border-2 border-white hover:bg-blue-800 hover:text-blue-600 shadow-xl"
+             className="text-4xl btn-primary text-white border-2 border-white hover:bg-blue-800 hover:text-blue-600 shadow-xl"
               >
              Get In Touch
              </Link>
@@ -331,7 +316,7 @@ export default function Home() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary text-white border-2 border-white hover:bg-blue-800 hover:text-blue-600 shadow-xl"
+              className="text-8xl btn-primary text-white border-2 border-white hover:bg-blue-800 hover:text-blue-600 shadow-xl"
               >
              <Download className="mr-3 h-6 w-6" />
              Download Resume
