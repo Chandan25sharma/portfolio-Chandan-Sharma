@@ -1,52 +1,12 @@
 [
-  {
-    "id": "ai-chatbot",
-    "title": "AI-Powered Chatbot",
-    "description": "A sophisticated chatbot built with Next.js and OpenAI API, featuring natural language processing and context-aware responses.",
-    "longDescription": "This project demonstrates the integration of modern web technologies with artificial intelligence. The chatbot uses OpenAI's GPT API to provide intelligent, context-aware responses to user queries. Built with Next.js 15, it features a responsive design, real-time messaging, and conversation history management.",
-    "image": "/images/chatbot-preview.jpg",
-    "technologies": ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS", "Prisma", "PostgreSQL"],
-    "features": [
-      "Real-time conversation interface",
-      "Context-aware AI responses",
-      "Conversation history storage",
-      "Multiple conversation threads",
-      "Responsive mobile design",
-      "Dark/light theme support"
-    ],
-    "githubUrl": "https://github.com/yourusername/ai-chatbot",
-    "liveUrl": "https://ai-chatbot-demo.vercel.app",
-    "slug": "ai-chatbot",
-    "category": "AI/ML",
-    "status": "completed"
-  },
-  {
-    "id": "task-manager",
-    "title": "Advanced Task Manager",
-    "description": "A full-stack task management application with real-time collaboration, drag-and-drop functionality, and team workspaces.",
-    "longDescription": "A comprehensive project management solution that combines modern web technologies to create an intuitive and powerful task management experience. Features include real-time collaboration, customizable workflows, and advanced analytics.",
-    "image": "/images/task-manager-preview.jpg",
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Redux Toolkit"],
-    "features": [
-      "Drag-and-drop task organization",
-      "Real-time team collaboration",
-      "Custom project templates",
-      "Time tracking and analytics",
-      "File attachments and comments",
-      "Mobile-responsive interface"
-    ],
-    "githubUrl": "https://github.com/yourusername/task-manager",
-    "liveUrl": "https://task-manager-pro.vercel.app",
-    "slug": "task-manager",
-    "category": "Web Application",
-    "status": "completed"
-  },
+  
+ 
   {
     "id": "ecommerce-platform",
-    "title": "E-commerce Platform",
+    "title": "shoplungu-e-commerce",
     "description": "A modern e-commerce solution with payment integration, inventory management, and admin dashboard.",
     "longDescription": "A full-featured e-commerce platform built with modern web technologies. Includes user authentication, payment processing, inventory management, and a comprehensive admin dashboard for managing products, orders, and customers.",
-    "image": "/images/ecommerce-preview.jpg",
+    "image": "/images/Eshopping.jpg",
     "technologies": ["Next.js", "TypeScript", "Stripe", "Supabase", "Tailwind CSS", "Zustand"],
     "features": [
       "Secure payment processing",
@@ -56,10 +16,52 @@
       "Product search and filtering",
       "Order tracking and management"
     ],
-    "githubUrl": "https://github.com/yourusername/ecommerce-platform",
-    "liveUrl": "https://ecommerce-demo.vercel.app",
+    "githubUrl": "https://github.com/Chandan25sharma/Shoplungu-E-commerce",
+    "liveUrl": "https://shoplungu-e-commerce.vercel.app/login",
     "slug": "ecommerce-platform",
     "category": "E-commerce",
+    "status": "completed"
+  },
+  {
+  "id": "tour-travel-booking",
+  "title": "Tour & Travel Booking Platform",
+  "description": "A web platform where users can explore, plan, and book their tours and travel destinations with ease.",
+  "longDescription": "An interactive tour and travel management system that allows users to browse destinations, customize tour packages, and make bookings online. The platform supports itinerary planning, online payments, and customer reviews, providing a seamless travel experience.",
+  "image": "/images/Tour-AndTravel.jpg",
+  "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "Stripe API", "Tailwind CSS"],
+  "features": [
+    "Destination exploration and package customization",
+    "Online booking and payment integration",
+    "User registration and profile management",
+    "Itinerary planning and booking history tracking",
+    "Customer reviews and ratings",
+    "Responsive and user-friendly design"
+  ],
+  "githubUrl": "https://github.com/Chandan25sharma/Tour-FIxer",
+  "liveUrl": "https://tour-f-ixer.vercel.app/",
+  "slug": "tour-travel-booking",
+  "category": "Web Application",
+  "status": "completed"
+},
+ {
+    "id": "task-manager",
+    "title": "Advanced Task Manager",
+    "description": "A full-stack task management application with real-time collaboration, drag-and-drop functionality, and team workspaces.",
+    "longDescription": "A comprehensive project management solution that combines modern web technologies to create an intuitive and powerful task management experience. Features include real-time collaboration, customizable workflows, and advanced analytics.",
+    "image": "/images/Taskmanager.jpg",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Redux Toolkit"],
+    "features": [
+      "Drag-and-drop task organization",
+      "Real-time team collaboration",
+      "Custom project templates",
+      "Time tracking and analytics",
+      "File attachments and comments",
+      "Mobile-responsive interface"
+    ],
+    "githubUrl": "https://github.com/Chandan25sharma/Advanced-Task_Manager",
+    "liveUrl": "https://advanced-task-manager-jade.vercel.app/",
+    "slug": "task-manager",
+    "category": "Web Application",
     "status": "completed"
   },
   {
@@ -67,7 +69,7 @@
     "title": "Data Visualization Dashboard",
     "description": "Interactive dashboard for data analysis with real-time charts, filtering capabilities, and export functionality.",
     "longDescription": "A comprehensive data visualization tool that transforms complex datasets into interactive, meaningful charts and graphs. Features real-time data updates, advanced filtering options, and multiple export formats for business intelligence needs.",
-    "image": "/images/dashboard-preview.jpg",
+    "image": "/images/datavisual.jpg",
     "technologies": ["React", "D3.js", "Chart.js", "Python", "FastAPI", "PostgreSQL"],
     "features": [
       "Interactive charts and graphs",
@@ -81,14 +83,14 @@
     "liveUrl": "https://sales-forecasting-tau.vercel.app/",
     "slug": "data-visualization",
     "category": "Data Science",
-    "status": "in-progress"
+    "status": "completed"
   },
   {
   "id": "ai-research-assistant",
   "title": "AI-Driven Autonomous Research Assistant",
   "description": "An AI system designed to autonomously analyze scientific literature, extract structured knowledge, build dynamic knowledge graphs, generate hypotheses, and suggest experimental designs.",
   "longDescription": "The AI-Driven Autonomous Research Assistant aims to revolutionize scientific discovery by automating key research processes. The system reads and understands scientific papers, extracts meaningful entities and relationships, constructs dynamic knowledge graphs, and proposes hypotheses and experimental designs based on identified patterns and research gaps. Leveraging a combination of deep learning, symbolic AI, and neuro-symbolic reasoning, this assistant provides explainable insights and accelerates research workflows.",
-  "image": "/images/ai-research-assistant-preview.jpg",
+  "image": "/images/AI-research.jpg",
   "technologies": [
     "Python",
     "SciBERT",
@@ -137,27 +139,28 @@
   "category": "AI Framework",
   "status": "in-progress"
 },
+
 {
-  "id": "tour-travel-booking",
-  "title": "Tour & Travel Booking Platform",
-  "description": "A web platform where users can explore, plan, and book their tours and travel destinations with ease.",
-  "longDescription": "An interactive tour and travel management system that allows users to browse destinations, customize tour packages, and make bookings online. The platform supports itinerary planning, online payments, and customer reviews, providing a seamless travel experience.",
-  "image": "/images/tour-travel-preview.jpg",
-  "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "Stripe API", "Tailwind CSS"],
-  "features": [
-    "Destination exploration and package customization",
-    "Online booking and payment integration",
-    "User registration and profile management",
-    "Itinerary planning and booking history tracking",
-    "Customer reviews and ratings",
-    "Responsive and user-friendly design"
-  ],
-  "githubUrl": "https://github.com/Chandan25sharma/Tour-FIxer",
-  "liveUrl": "https://tour-f-ixer.vercel.app/",
-  "slug": "tour-travel-booking",
-  "category": "Web Application",
-  "status": "in-progress"
-}
+    "id": "ai-chatbot",
+    "title": "AI-Powered Chatbot",
+    "description": "A sophisticated chatbot built with Next.js and OpenAI API, featuring natural language processing and context-aware responses.",
+    "longDescription": "This project demonstrates the integration of modern web technologies with artificial intelligence. The chatbot uses OpenAI's GPT API to provide intelligent, context-aware responses to user queries. Built with Next.js 15, it features a responsive design, real-time messaging, and conversation history management.",
+    "image": "/images/Aipoerw112.jpg",
+    "technologies": ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    "features": [
+      "Real-time conversation interface",
+      "Context-aware AI responses",
+      "Conversation history storage",
+      "Multiple conversation threads",
+      "Responsive mobile design",
+      "Dark/light theme support"
+    ],
+    "githubUrl": "https://github.com/yourusername/ai-chatbot",
+    "liveUrl": "https://ai-chatbot-demo.vercel.app",
+    "slug": "ai-chatbot",
+    "category": "AI/ML",
+    "status": "completed"
+  }
 
 
 ]

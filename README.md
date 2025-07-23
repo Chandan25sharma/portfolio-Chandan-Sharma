@@ -4,15 +4,15 @@ A modern, responsive portfolio website built with Next.js 15, TypeScript, and Ta
 
 ## Features
 
-- ✨ **Dynamic Home Page** - Profile, banner, intro with animations
-- 📄 **About Me** - Personal info, skills, timeline, and stats
-- 🚀 **Projects Page** - Filterable project showcase with individual project pages
-- 📚 **Research Papers** - PDF viewer with categorization and search
-- 📧 **Contact Form** - Functional contact form with validation
-- 📱 **Mobile Responsive** - Optimized for all devices
-- 🌙 **Dark Mode** - Toggle between light and dark themes
-- ⚡ **Performance Optimized** - Built with Next.js 15 for optimal performance
-- 🔍 **SEO Optimized** - Meta tags, structured data, and more
+- **Dynamic Home Page** - Profile, banner, intro with animations
+-  **About Me** - Personal info, skills, timeline, and stats
+-  **Projects Page** - Filterable project showcase with individual project pages
+-  **Research Papers** - PDF viewer with categorization and search
+-  **Contact Form** - Functional contact form with validation
+- **Mobile Responsive** - Optimized for all devices
+- **Dark Mode** - Toggle between light and dark themes
+-  **Performance Optimized** - Built with Next.js 15 for optimal performance
+-  **SEO Optimized** - Meta tags, structured data, and more
 
 ## Tech Stack
 
@@ -33,7 +33,7 @@ A modern, responsive portfolio website built with Next.js 15, TypeScript, and Ta
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Chandan25sharma/portfolio-Chandan-Sharma
 cd portfolio
 ```
 
@@ -102,12 +102,7 @@ The project uses Tailwind CSS for styling. You can customize:
 
 ## Deployment
 
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Visit [Vercel](https://vercel.com)
-3. Import your repository
-4. Deploy with one click
+### Vercel
 
 ### Other Platforms
 
@@ -128,27 +123,6 @@ RESEND_API_KEY=your_resend_api_key
 FORMSPREE_FORM_ID=your_formspree_form_id
 ```
 
-## File Structure
-
-```
-portfolio/
-├── public/
-│   ├── images/          # Profile and project images
-│   ├── papers/          # Research paper PDFs
-│   └── resume.pdf       # Your resume
-├── src/
-│   ├── app/
-│   │   ├── about/       # About page
-│   │   ├── contact/     # Contact page
-│   │   ├── projects/    # Projects pages
-│   │   ├── research/    # Research page
-│   │   └── api/         # API routes
-│   ├── components/      # React components
-│   ├── data/           # JSON data files
-│   └── ...
-├── tailwind.config.ts   # Tailwind configuration
-├── next.config.ts       # Next.js configuration
-└── package.json
 ```
 
 ## Contributing
@@ -168,4 +142,4 @@ If you have questions or need help customizing the portfolio, feel free to open 
 
 ---
 
-**Made with ❤️ and Next.js**
+**Made with ❤️ Support**
