@@ -4,7 +4,7 @@
   "title": "Alungus AI Web Suite",
   "description": "An advanced AI web platform for image, video, audio, 3D content generation, and intelligent chatbot interaction.",
   "longDescription": "A complete web-based AI application featuring powerful content generation tools. Includes Stable Diffusion, AnimateDiff, Bark TTS, MusicGen, and Threestudio, alongside LLM integration via Ollama. Built with Next.js 15 and TypeScript, it offers modern UI, multiple authentication methods, and seamless AI interaction through local or Colab-hosted models.",
-  "image": "/images/AlungusAI.jpg",
+  "image": "/images/Alungus.jpg",
   "technologies": ["Next.js 15", "TypeScript", "Tailwind CSS", "Framer Motion", "NextAuth.js", "MongoDB", "Ollama", "shadcn/ui", "Radix UI"],
   "features": [
     "Stable Diffusion SDXL for image generation",
@@ -46,6 +46,43 @@
     "category": "E-commerce",
     "status": "completed"
   },
+  {
+  "id": "amutec",
+  "title": "Amutec - Complete PDF Tools & AI Resume Analyzer image processing platform and json converter",
+  "description": "A comprehensive web application for professional PDF editing, file conversion, and AI-powered resume analysis.",
+  "longDescription": "Amutec is a production-ready PDF processing platform built with Next.js 15 that offers a complete suite of tools for editing, converting, annotating, and securing PDF documents. It also includes an AI-powered resume analyzer that provides smart career advice. Designed with a modern UI, batch processing support, and responsive design, it rivals top platforms like SmallPDF and ILovePDF.",
+  "image": "/images/Amutec.jpg",
+  "technologies": [
+    "Next.js 15",
+    "TypeScript",
+    "Tailwind CSS",
+    "React",
+    "Lucide React",
+    "PDF-lib",
+    "PDF.js",
+    "OpenAI API"
+  ],
+  "features": [
+    "Merge, split, compress, and repair PDFs",
+    "Organize, rotate, and secure PDF pages",
+    "Add text, shapes, highlights, and annotations",
+    "Convert PDFs to and from Word, Excel, PPT, JPG",
+    "Universal converter: PDF ↔ DOCX, XLSX, PPTX, JSON, XML",
+    "AI-powered resume analysis with suggestions",
+    "Batch file processing",
+    "Drag-and-drop uploads with real-time feedback",
+    "OCR and text extraction (Premium)",
+    "Advanced DPI, quality, and permission settings",
+    "Mobile responsive and fully styled with Tailwind",
+    "Production-ready API routes for all PDF operations"
+  ],
+  "githubUrl": "https://github.com/Chandan25sharma/Amutec",
+  "liveUrl": "https://amutec.vercel.app/",
+  "slug": "amutec-pdf-tools",
+  "category": "Productivity",
+  "status": "completed"
+}
+,
   {
   "id": "tour-travel-booking",
   "title": "Tour & Travel Booking Platform",
