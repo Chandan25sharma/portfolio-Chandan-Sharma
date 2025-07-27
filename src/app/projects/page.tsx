@@ -32,7 +32,7 @@ export default function Projects() {
       <section className="section-spacing relative overflow-hidden bg-[url('/images/bgimg6.jpg')] bg-cover">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-12">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16 lg:mb-20"
           >

@@ -19,7 +19,7 @@ export default async function ProjectPage({ params }: PageProps) {
   }
 
   return (
-    <div className="section-spacing bg-[url('/images/bgimg6.jpg')] bg-cover bg-center bg-no-repeat">
+    <div className="section-spacing bg-gray-950 bg-cover bg-center bg-no-repeat">
       <div className="container-responsive1 mx-auto px-6 sm:px-8 lg:px-12">
         {/* Back Button */}
         <div className="mb-8">
@@ -84,7 +84,7 @@ export default async function ProjectPage({ params }: PageProps) {
                   ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300'
                   : project.status === 'in-progress'
                   ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300'
-                  : 'bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300'
+                  : 'bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300'
               }`}>
                 {project.status.split('-').join(' ')}
               </span>
@@ -94,7 +94,7 @@ export default async function ProjectPage({ params }: PageProps) {
               {project.title}
             </h1>
 
-            <p className="text-[14px] text-gray-800 dark:text-gray-950 font-bold leading-relaxed max-w-3xl">
+            <p className="text-[14px] text-gray-800 dark:text-gray-400 font-medium leading-relaxed max-w-3xl">
               {project.description}
             </p>
           </div>

@@ -1,5 +1,29 @@
 [
-  
+  {
+  "id": "alungus-ai",
+  "title": "Alungus AI Web Suite",
+  "description": "An advanced AI web platform for image, video, audio, 3D content generation, and intelligent chatbot interaction.",
+  "longDescription": "A complete web-based AI application featuring powerful content generation tools. Includes Stable Diffusion, AnimateDiff, Bark TTS, MusicGen, and Threestudio, alongside LLM integration via Ollama. Built with Next.js 15 and TypeScript, it offers modern UI, multiple authentication methods, and seamless AI interaction through local or Colab-hosted models.",
+  "image": "/images/AlungusAI.jpg",
+  "technologies": ["Next.js 15", "TypeScript", "Tailwind CSS", "Framer Motion", "NextAuth.js", "MongoDB", "Ollama", "shadcn/ui", "Radix UI"],
+  "features": [
+    "Stable Diffusion SDXL for image generation",
+    "AnimateDiff and ModelScope for video generation",
+    "Bark TTS and MusicGen for audio synthesis",
+    "Threestudio for 3D content creation",
+    "LLM-powered chatbot with Ollama (LLaMA 3, Mistral, etc.)",
+    "Multi-provider authentication (Google, GitHub, X, Outlook)",
+    "Email/password login with JWT session handling",
+    "Responsive dark/light themed UI",
+    "Framer Motion for animation effects"
+  ],
+  "githubUrl": "https://github.com/Chandan25sharma/Alungus-AI",
+  "liveUrl": "https://alungus-ai.vercel.app/",
+  "slug": "alungus-ai-platform",
+  "category": "AI Web Platform",
+  "status": "completed"
+},
+
  
   {
     "id": "ecommerce-platform",

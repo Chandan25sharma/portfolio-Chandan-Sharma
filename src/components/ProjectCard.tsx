@@ -94,13 +94,13 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           </div>
         </div>
 
-        <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+        <h3 className="text-[15px] font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
           <Link href={`/projects/${project.slug}`}>
             {project.title}
           </Link>
         </h3>
 
-        <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+        <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3 text-[13px]">
           {project.description}
         </p>
 

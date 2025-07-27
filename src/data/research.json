@@ -22,7 +22,7 @@
     "journal": "ACM Transactions on Computer Systems",
     "year": 2024,
     "pdfUrl": "/papers/blockchain-scalability-solutions.pdf",
-    "keywords": ["Blockchain", "Scalability", "Sharding", "Layer-2", "Distributed Systems"],
+    "keywords": ["Blockchain", "Sharding", "Layer-2", "Distributed Systems"],
     "category": "Distributed Systems",
     "citations": 28,
     "slug": "blockchain-scalability"
